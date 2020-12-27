@@ -1,0 +1,2253 @@
+{
+    "csrfToken": "43d6332e5793bcb0708e8ab7702472d8",
+    "messages": [],
+    "viewData": {
+        "breadcrumbs": [{
+                "text": "breadcrumb_home",
+                "url": "/ar/"
+            },
+            {
+                "text": "موبايلات وتابلت",
+                "url": "/ar/phones-tablets/"
+            },
+            {
+                "text": "موبايلات",
+                "url": "/ar/mobile-phones/"
+            },
+            {
+                "text": "الهواتف الذكية"
+            }
+        ],
+        "mainTitle": "اشترى سمارت فون",
+        "viewMoreCTA": "catalog_view-more-cta",
+        "productsFound": "إجمالى المنتجات 1017",
+        "page": "category-catalog-page",
+        "products": [{
+                "sku": "XI606MP0ZHRTXNAFAMZ",
+                "name": "Redmi Note 9 Pro - 6.67-inch 128GB/6GB Dual SIM Mobile Phone - Glacier White",
+                "displayName": "XIAOMI Redmi Note 9 Pro - 6.67-inch 128GB/6GB Dual SIM Mobile Phone - Glacier White",
+                "brand": "XIAOMI",
+                "sellerId": 22043,
+                "isShopExpress": true,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "4240.00",
+                    "price": "جنيه 4,240",
+                    "priceEuro": "226.60",
+                    "taxEuro": "27.83",
+                    "oldPrice": "جنيه 5,555",
+                    "oldPriceEuro": "296.88",
+                    "discount": "24%"
+                },
+                "tags": "COL_143|COL_144",
+                "rating": {
+                    "average": 4.7,
+                    "totalRatings": 7
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/59/615781/1.jpg?1505",
+                "url": "/ar/xiaomi-redmi-note-9-pro-6.67-inch-128gb6gb-dual-sim-mobile-phone-glacier-white-18751695.html",
+                "isBuyable": true,
+                "shopExpress": {
+                    "title": "شحن سريع",
+                    "text": "مؤهل للشحن المجاني"
+                },
+                "simples": [{
+                    "sku": "XI606MP0ZHRTXNAFAMZ-35201424",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=XI606MP0ZHRTXNAFAMZ-35201424",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "4240.00",
+                        "price": "جنيه 4,240",
+                        "priceEuro": "226.60",
+                        "taxEuro": "27.83",
+                        "oldPrice": "جنيه 5,555",
+                        "oldPriceEuro": "296.88",
+                        "discount": "24%"
+                    }
+                }],
+                "selectedVariation": "XI606MP0ZHRTXNAFAMZ-35201424"
+            },
+            {
+                "sku": "SA024MP1L62NNNAFAMZ",
+                "name": "Galaxy Note20 - 6.7-inch 256GB/8GB Dual SIM 4G Mobile Phone - Mystic Gray",
+                "displayName": "Samsung Galaxy Note20 - 6.7-inch 256GB/8GB Dual SIM 4G Mobile Phone - Mystic Gray",
+                "brand": "Samsung",
+                "isShopExpress": true,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "13850.00",
+                    "price": "جنيه 13,850",
+                    "priceEuro": "740.21",
+                    "taxEuro": "90.90",
+                    "oldPrice": "جنيه 16,299",
+                    "oldPriceEuro": "871.09",
+                    "discount": "15%"
+                },
+                "tags": "BF20|COL_108|Camp_50|JMALL|MLP29|Merch_91",
+                "rating": {
+                    "average": 0,
+                    "totalRatings": 0
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/96/021491/1.jpg?9817",
+                "url": "/ar/samsung-galaxy-note20-6.7-inch-256gb8gb-dual-sim-4g-mobile-phone-mystic-gray-19412069.html",
+                "badges": {
+                    "main": {
+                        "name": "المتجر الرسمي",
+                        "identifier": "JMALL",
+                        "url": "/ar/all-products/?tag=JMALL"
+                    },
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": true,
+                "shopExpress": {
+                    "title": "شحن سريع",
+                    "text": "مؤهل للشحن المجاني"
+                },
+                "simples": [{
+                    "sku": "SA024MP1L62NNNAFAMZ-36221405",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=SA024MP1L62NNNAFAMZ-36221405",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "13850.00",
+                        "price": "جنيه 13,850",
+                        "priceEuro": "740.21",
+                        "taxEuro": "90.90",
+                        "oldPrice": "جنيه 16,299",
+                        "oldPriceEuro": "871.09",
+                        "discount": "15%"
+                    }
+                }],
+                "selectedVariation": "SA024MP1L62NNNAFAMZ-36221405"
+            },
+            {
+                "sku": "SA024MP04L19VNAFAMZ",
+                "name": "Galaxy M51 - 6.7-inch 128GB/8GB Dual SIM 4G Mobile Phone - White",
+                "displayName": "Samsung Galaxy M51 - 6.7-inch 128GB/8GB Dual SIM 4G Mobile Phone - White",
+                "brand": "Samsung",
+                "sellerId": 22043,
+                "isShopExpress": true,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "6361.00",
+                    "price": "جنيه 6,361",
+                    "priceEuro": "339.96",
+                    "taxEuro": "41.75",
+                    "oldPrice": "جنيه 7,500",
+                    "oldPriceEuro": "400.83",
+                    "discount": "15%"
+                },
+                "tags": "BF20",
+                "rating": {
+                    "average": 5,
+                    "totalRatings": 1
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/07/699891/1.jpg?3994",
+                "url": "/ar/samsung-galaxy-m51-6.7-inch-128gb8gb-dual-sim-4g-mobile-phone-white-19899670.html",
+                "badges": {
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": true,
+                "shopExpress": {
+                    "title": "شحن سريع",
+                    "text": "مؤهل للشحن المجاني"
+                },
+                "simples": [{
+                    "sku": "SA024MP04L19VNAFAMZ-36914090",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=SA024MP04L19VNAFAMZ-36914090",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "6361.00",
+                        "price": "جنيه 6,361",
+                        "priceEuro": "339.96",
+                        "taxEuro": "41.75",
+                        "oldPrice": "جنيه 7,500",
+                        "oldPriceEuro": "400.83",
+                        "discount": "15%"
+                    }
+                }],
+                "selectedVariation": "SA024MP04L19VNAFAMZ-36914090"
+            },
+            {
+                "sku": "HU820MP12U7M9NAFAMZ",
+                "name": "Y7p - 6.39-inch - 64GB/4GB Mobile Phone - Midnight Black",
+                "displayName": "Huawei Y7p - 6.39-inch - 64GB/4GB Mobile Phone - Midnight Black",
+                "brand": "Huawei",
+                "sellerId": 22043,
+                "isShopExpress": true,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "2383.00",
+                    "price": "جنيه 2,383",
+                    "priceEuro": "127.36",
+                    "taxEuro": "15.64",
+                    "oldPrice": "جنيه 3,500",
+                    "oldPriceEuro": "187.06",
+                    "discount": "32%"
+                },
+                "rating": {
+                    "average": 5,
+                    "totalRatings": 3
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/65/234961/1.jpg?2744",
+                "url": "/ar/huawei-y7p-6.39-inch-64gb4gb-mobile-phone-midnight-black-16943256.html",
+                "isBuyable": true,
+                "shopExpress": {
+                    "title": "شحن سريع",
+                    "text": "مؤهل للشحن المجاني"
+                },
+                "simples": [{
+                    "sku": "HU820MP12U7M9NAFAMZ-31803045",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=HU820MP12U7M9NAFAMZ-31803045",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "2383.00",
+                        "price": "جنيه 2,383",
+                        "priceEuro": "127.36",
+                        "taxEuro": "15.64",
+                        "oldPrice": "جنيه 3,500",
+                        "oldPriceEuro": "187.06",
+                        "discount": "32%"
+                    }
+                }],
+                "selectedVariation": "HU820MP12U7M9NAFAMZ-31803045"
+            },
+            {
+                "sku": "XI606MP0NB007NAFAMZ",
+                "name": "Redmi Note 9 Pro - 6.67-inch 128GB/6GB Dual SIM Mobile Phone - Tropical Green",
+                "displayName": "XIAOMI Redmi Note 9 Pro - 6.67-inch 128GB/6GB Dual SIM Mobile Phone - Tropical Green",
+                "brand": "XIAOMI",
+                "sellerId": 45697,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "4244.00",
+                    "price": "جنيه 4,244",
+                    "priceEuro": "226.82",
+                    "taxEuro": "27.85",
+                    "oldPrice": "جنيه 4,599",
+                    "oldPriceEuro": "245.79",
+                    "discount": "8%"
+                },
+                "tags": "BF20",
+                "rating": {
+                    "average": 5,
+                    "totalRatings": 1
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/39/144391/1.jpg?8570",
+                "url": "/ar/xiaomi-redmi-note-9-pro-6.67-inch-128gb6gb-dual-sim-mobile-phone-tropical-green-19344193.html",
+                "badges": {
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "XI606MP0NB007NAFAMZ-36126023",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=XI606MP0NB007NAFAMZ-36126023",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "4244.00",
+                        "price": "جنيه 4,244",
+                        "priceEuro": "226.82",
+                        "taxEuro": "27.85",
+                        "oldPrice": "جنيه 4,599",
+                        "oldPriceEuro": "245.79",
+                        "discount": "8%"
+                    }
+                }],
+                "selectedVariation": "XI606MP0NB007NAFAMZ-36126023"
+            },
+            {
+                "sku": "XI606MP1C2F1ZNAFAMZ",
+                "name": "Mi Note 10 Lite - 6.47-inch 128GB/8GB Dual SIM Mobile Phone - Nebula Purple",
+                "displayName": "XIAOMI Mi Note 10 Lite - 6.47-inch 128GB/8GB Dual SIM Mobile Phone - Nebula Purple",
+                "brand": "XIAOMI",
+                "sellerId": 45697,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "5788.00",
+                    "price": "جنيه 5,788",
+                    "priceEuro": "309.34",
+                    "taxEuro": "37.99"
+                },
+                "tags": "BF20|COL_143|COL_144|Camp_50",
+                "rating": {
+                    "average": 4.5,
+                    "totalRatings": 2
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/80/734391/1.jpg?4251",
+                "url": "/ar/xiaomi-mi-note-10-lite-6.47-inch-128gb8gb-dual-sim-mobile-phone-nebula-purple-19343708.html",
+                "badges": {
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "XI606MP1C2F1ZNAFAMZ-36124901",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=XI606MP1C2F1ZNAFAMZ-36124901",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "5788.00",
+                        "price": "جنيه 5,788",
+                        "priceEuro": "309.34",
+                        "taxEuro": "37.99"
+                    }
+                }],
+                "selectedVariation": "XI606MP1C2F1ZNAFAMZ-36124901"
+            },
+            {
+                "sku": "IN234MP1J2GTJNAFAMZ",
+                "name": "X690B Note 7 - 6.95-inch 128GB/6GB Dual SIM Mobile Phone - Forest Green",
+                "displayName": "Infinix X690B Note 7 - 6.95-inch 128GB/6GB Dual SIM Mobile Phone - Forest Green",
+                "brand": "Infinix",
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "2699.00",
+                    "price": "جنيه 2,699",
+                    "priceEuro": "144.25",
+                    "taxEuro": "17.71"
+                },
+                "tags": "BF20|Camp_50",
+                "rating": {
+                    "average": 0,
+                    "totalRatings": 0
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/92/493991/1.jpg?1090",
+                "url": "/ar/infinix-x690b-note-7-6.95-inch-128gb6gb-dual-sim-mobile-phone-forest-green-19939429.html",
+                "badges": {
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": false,
+                "simples": [{
+                    "sku": "IN234MP1J2GTJNAFAMZ-36970400",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=IN234MP1J2GTJNAFAMZ-36970400",
+                    "isBuyable": false,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "2699.00",
+                        "price": "جنيه 2,699",
+                        "priceEuro": "144.25",
+                        "taxEuro": "17.71"
+                    }
+                }],
+                "selectedVariation": "IN234MP1J2GTJNAFAMZ-36970400"
+            },
+            {
+                "sku": "SA024MP11YI1LNAFAMZ",
+                "name": "Galaxy M31 - 6.4-inch 128GB/6GB 4G Mobile Phone - Blue",
+                "displayName": "Samsung Galaxy M31 - 6.4-inch 128GB/6GB 4G Mobile Phone - Blue",
+                "brand": "Samsung",
+                "sellerId": 45697,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "4188.00",
+                    "price": "جنيه 4,188",
+                    "priceEuro": "223.83",
+                    "taxEuro": "27.49"
+                },
+                "tags": "COL_143|COL_144",
+                "rating": {
+                    "average": 4.7,
+                    "totalRatings": 3
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/63/755481/1.jpg?2841",
+                "url": "/ar/samsung-galaxy-m31-6.4-inch-128gb6gb-4g-mobile-phone-blue-18455736.html",
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "SA024MP11YI1LNAFAMZ-34727208",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=SA024MP11YI1LNAFAMZ-34727208",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "4188.00",
+                        "price": "جنيه 4,188",
+                        "priceEuro": "223.83",
+                        "taxEuro": "27.49"
+                    }
+                }],
+                "selectedVariation": "SA024MP11YI1LNAFAMZ-34727208"
+            },
+            {
+                "sku": "SA024MP0695V6NAFAMZ",
+                "name": "Galaxy M11 - 6.4-inch 32GB/3GB Dual SIM Mobile Phone - Metallic Blue",
+                "displayName": "Samsung Galaxy M11 - 6.4-inch 32GB/3GB Dual SIM Mobile Phone - Metallic Blue",
+                "brand": "Samsung",
+                "sellerId": 21082,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "2215.00",
+                    "price": "جنيه 2,215",
+                    "priceEuro": "118.38",
+                    "taxEuro": "14.54",
+                    "oldPrice": "جنيه 5,000",
+                    "oldPriceEuro": "267.22",
+                    "discount": "56%"
+                },
+                "tags": "BF20",
+                "rating": {
+                    "average": 0,
+                    "totalRatings": 0
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/10/505202/1.jpg?6371",
+                "url": "/ar/samsung-galaxy-m11-6.4-inch-32gb3gb-dual-sim-mobile-phone-metallic-blue-20250501.html",
+                "badges": {
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "SA024MP0695V6NAFAMZ-37363356",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=SA024MP0695V6NAFAMZ-37363356",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "2215.00",
+                        "price": "جنيه 2,215",
+                        "priceEuro": "118.38",
+                        "taxEuro": "14.54",
+                        "oldPrice": "جنيه 5,000",
+                        "oldPriceEuro": "267.22",
+                        "discount": "56%"
+                    }
+                }],
+                "selectedVariation": "SA024MP0695V6NAFAMZ-37363356"
+            },
+            {
+                "sku": "HU820MP1CNUNRNAFAMZ",
+                "name": "Y5p - 5.45-inch 32GB/2GB 4G Mobile Phone - Mint Green",
+                "displayName": "Huawei Y5p - 5.45-inch 32GB/2GB 4G Mobile Phone - Mint Green",
+                "brand": "Huawei",
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "1525.00",
+                    "price": "جنيه 1,525",
+                    "priceEuro": "81.50",
+                    "taxEuro": "10.01"
+                },
+                "tags": "COL_143|COL_144",
+                "rating": {
+                    "average": 5,
+                    "totalRatings": 2
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/81/734391/1.jpg?4310",
+                "url": "/ar/huawei-y5p-5.45-inch-32gb2gb-4g-mobile-phone-mint-green-19343718.html",
+                "isBuyable": false,
+                "simples": [{
+                    "sku": "HU820MP1CNUNRNAFAMZ-36124911",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=HU820MP1CNUNRNAFAMZ-36124911",
+                    "isBuyable": false,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "1525.00",
+                        "price": "جنيه 1,525",
+                        "priceEuro": "81.50",
+                        "taxEuro": "10.01"
+                    }
+                }],
+                "selectedVariation": "HU820MP1CNUNRNAFAMZ-36124911"
+            },
+            {
+                "sku": "HU820MP0TMA9BNAFAMZ",
+                "name": "Y9a - 6.63-inch 128GB/8GB 4G Mobile Phone - Space Silver",
+                "displayName": "Huawei Y9a - 6.63-inch 128GB/8GB 4G Mobile Phone - Space Silver",
+                "brand": "Huawei",
+                "isShopExpress": true,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "4277.00",
+                    "price": "جنيه 4,277",
+                    "priceEuro": "228.58",
+                    "taxEuro": "28.07",
+                    "oldPrice": "جنيه 4,699",
+                    "oldPriceEuro": "251.14",
+                    "discount": "9%"
+                },
+                "tags": "BF20|COL_133|Camp_50|JMALL",
+                "rating": {
+                    "average": 0,
+                    "totalRatings": 0
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/49/748591/1.jpg?7433",
+                "url": "/ar/huawei-y9a-6.63-inch-128gb8gb-4g-mobile-phone-space-silver-19584794.html",
+                "badges": {
+                    "main": {
+                        "name": "المتجر الرسمي",
+                        "identifier": "JMALL",
+                        "url": "/ar/all-products/?tag=JMALL"
+                    },
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": true,
+                "shopExpress": {
+                    "title": "شحن سريع",
+                    "text": "مؤهل للشحن المجاني"
+                },
+                "simples": [{
+                    "sku": "HU820MP0TMA9BNAFAMZ-36413057",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=HU820MP0TMA9BNAFAMZ-36413057",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "4277.00",
+                        "price": "جنيه 4,277",
+                        "priceEuro": "228.58",
+                        "taxEuro": "28.07",
+                        "oldPrice": "جنيه 4,699",
+                        "oldPriceEuro": "251.14",
+                        "discount": "9%"
+                    }
+                }],
+                "selectedVariation": "HU820MP0TMA9BNAFAMZ-36413057"
+            },
+            {
+                "sku": "SA024MP1LZQC2NAFAMZ",
+                "name": "Galaxy S20 FE - 6.5-inch 128GB/8GB Mobile Phone - Cloud Mint",
+                "displayName": "Samsung Galaxy S20 FE - 6.5-inch 128GB/8GB Mobile Phone - Cloud Mint",
+                "brand": "Samsung",
+                "isShopExpress": true,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "10555.00",
+                    "price": "جنيه 10,555",
+                    "priceEuro": "564.11",
+                    "taxEuro": "69.28",
+                    "oldPrice": "جنيه 11,999",
+                    "oldPriceEuro": "641.28",
+                    "discount": "12%"
+                },
+                "tags": "Camp_50|JMALL|MLP20",
+                "rating": {
+                    "average": 0,
+                    "totalRatings": 0
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/97/405202/1.jpg?5996",
+                "url": "/ar/samsung-galaxy-s20-fe-6.5-inch-128gb8gb-mobile-phone-cloud-mint-20250479.html",
+                "badges": {
+                    "main": {
+                        "name": "المتجر الرسمي",
+                        "identifier": "JMALL",
+                        "url": "/ar/all-products/?tag=JMALL"
+                    }
+                },
+                "isBuyable": true,
+                "shopExpress": {
+                    "title": "شحن سريع",
+                    "text": "مؤهل للشحن المجاني"
+                },
+                "simples": [{
+                    "sku": "SA024MP1LZQC2NAFAMZ-37363334",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=SA024MP1LZQC2NAFAMZ-37363334",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "10555.00",
+                        "price": "جنيه 10,555",
+                        "priceEuro": "564.11",
+                        "taxEuro": "69.28",
+                        "oldPrice": "جنيه 11,999",
+                        "oldPriceEuro": "641.28",
+                        "discount": "12%"
+                    }
+                }],
+                "selectedVariation": "SA024MP1LZQC2NAFAMZ-37363334"
+            },
+            {
+                "sku": "XI606MP13ECF2NAFAMZ",
+                "name": "Redmi Note 5 - 5.99-inch 32GB/3GB Mobile Phone - Red",
+                "displayName": "XIAOMI Redmi Note 5 - 5.99-inch 32GB/3GB Mobile Phone - Red",
+                "brand": "XIAOMI",
+                "isShopExpress": true,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "2115.00",
+                    "price": "جنيه 2,115",
+                    "priceEuro": "113.04",
+                    "taxEuro": "13.88"
+                },
+                "tags": "Camp_97",
+                "rating": {
+                    "average": 0,
+                    "totalRatings": 0
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/66/174302/1.jpg?1822",
+                "url": "/ar/xiaomi-redmi-note-5-5.99-inch-32gb3gb-mobile-phone-red-20347166.html",
+                "isBuyable": true,
+                "shopExpress": {
+                    "title": "شحن سريع",
+                    "text": "مؤهل للشحن المجاني"
+                },
+                "simples": [{
+                    "sku": "XI606MP13ECF2NAFAMZ-37490529",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=XI606MP13ECF2NAFAMZ-37490529",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "2115.00",
+                        "price": "جنيه 2,115",
+                        "priceEuro": "113.04",
+                        "taxEuro": "13.88"
+                    }
+                }],
+                "selectedVariation": "XI606MP13ECF2NAFAMZ-37490529"
+            },
+            {
+                "sku": "SA024MP17WU3DNAFAMZ",
+                "name": "Galaxy M31 - 6.4-inch 128GB/6GB 4G Mobile Phone - Black",
+                "displayName": "Samsung Galaxy M31 - 6.4-inch 128GB/6GB 4G Mobile Phone - Black",
+                "brand": "Samsung",
+                "sellerId": 45697,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "4188.00",
+                    "price": "جنيه 4,188",
+                    "priceEuro": "223.83",
+                    "taxEuro": "27.49"
+                },
+                "tags": "COL_143|COL_144",
+                "rating": {
+                    "average": 4,
+                    "totalRatings": 1
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/73/755481/1.jpg?2841",
+                "url": "/ar/samsung-galaxy-m31-6.4-inch-128gb6gb-4g-mobile-phone-black-18455737.html",
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "SA024MP17WU3DNAFAMZ-34727209",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=SA024MP17WU3DNAFAMZ-34727209",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "4188.00",
+                        "price": "جنيه 4,188",
+                        "priceEuro": "223.83",
+                        "taxEuro": "27.49"
+                    }
+                }],
+                "selectedVariation": "SA024MP17WU3DNAFAMZ-34727209"
+            },
+            {
+                "sku": "SA024EL13Q0IDNAFAMZ",
+                "name": "Galaxy A10s - 6.2 بوصة 32 جيجا بايت/2 جيجا بايت ثنائي الشريحة 4G موبايل - أسود",
+                "displayName": "Samsung Galaxy A10s - 6.2 بوصة 32 جيجا بايت/2 جيجا بايت ثنائي الشريحة 4G موبايل - أسود",
+                "brand": "Samsung",
+                "sellerId": 45697,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "1788.00",
+                    "price": "جنيه 1,788",
+                    "priceEuro": "95.56",
+                    "taxEuro": "11.74",
+                    "oldPrice": "جنيه 1,999",
+                    "oldPriceEuro": "106.84",
+                    "discount": "11%"
+                },
+                "rating": {
+                    "average": 4.7,
+                    "totalRatings": 69
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/66/718741/1.jpg?1826",
+                "url": "/ar/samsung-galaxy-a10s-6.2-inch-32gb2gb-dual-sim-4g-mobile-phone-black-14781766.html",
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "SA024EL13Q0IDNAFAMZ-27535125",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=SA024EL13Q0IDNAFAMZ-27535125",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "1788.00",
+                        "price": "جنيه 1,788",
+                        "priceEuro": "95.56",
+                        "taxEuro": "11.74",
+                        "oldPrice": "جنيه 1,999",
+                        "oldPriceEuro": "106.84",
+                        "discount": "11%"
+                    }
+                }],
+                "selectedVariation": "SA024EL13Q0IDNAFAMZ-27535125"
+            },
+            {
+                "sku": "XI606MP01169JNAFAMZ",
+                "name": "Mi Note 10 Lite - 6.47-inch 128GB/8GB Dual SIM Mobile Phone - Glacier White",
+                "displayName": "XIAOMI Mi Note 10 Lite - 6.47-inch 128GB/8GB Dual SIM Mobile Phone - Glacier White",
+                "brand": "XIAOMI",
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "5795.00",
+                    "price": "جنيه 5,795",
+                    "priceEuro": "309.71",
+                    "taxEuro": "38.03"
+                },
+                "tags": "BF20|COL_143|COL_144|Camp_50",
+                "rating": {
+                    "average": 3.4,
+                    "totalRatings": 5
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/01/734391/1.jpg?4251",
+                "url": "/ar/xiaomi-mi-note-10-lite-6.47-inch-128gb8gb-dual-sim-mobile-phone-glacier-white-19343710.html",
+                "badges": {
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": false,
+                "simples": [{
+                    "sku": "XI606MP01169JNAFAMZ-36124903",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=XI606MP01169JNAFAMZ-36124903",
+                    "isBuyable": false,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "5795.00",
+                        "price": "جنيه 5,795",
+                        "priceEuro": "309.71",
+                        "taxEuro": "38.03"
+                    }
+                }],
+                "selectedVariation": "XI606MP01169JNAFAMZ-36124903"
+            },
+            {
+                "sku": "OP872MP0B2UVINAFAMZ",
+                "name": "Reno4 - 6.4-inch 128GB/8GB Dual SIM 4G Mobile Phone - Galactic Blue",
+                "displayName": "Oppo Reno4 - 6.4-inch 128GB/8GB Dual SIM 4G Mobile Phone - Galactic Blue",
+                "brand": "Oppo",
+                "sellerId": 4121,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "9000.00",
+                    "price": "جنيه 9,000",
+                    "priceEuro": "481.00",
+                    "taxEuro": "59.07"
+                },
+                "tags": "BF20",
+                "rating": {
+                    "average": 0,
+                    "totalRatings": 0
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/18/609102/1.jpg?5004",
+                "url": "/ar/oppo-reno4-6.4-inch-128gb8gb-dual-sim-4g-mobile-phone-galactic-blue-20190681.html",
+                "badges": {
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "OP872MP0B2UVINAFAMZ-37294632",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=OP872MP0B2UVINAFAMZ-37294632",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "9000.00",
+                        "price": "جنيه 9,000",
+                        "priceEuro": "481.00",
+                        "taxEuro": "59.07"
+                    }
+                }],
+                "selectedVariation": "OP872MP0B2UVINAFAMZ-37294632"
+            },
+            {
+                "sku": "XI606MP164307NAFAMZ",
+                "name": "Redmi Note 9 Pro - 6.67-inch 128GB/6GB Dual SIM Mobile Phone - Interstellar Grey",
+                "displayName": "XIAOMI Redmi Note 9 Pro - 6.67-inch 128GB/6GB Dual SIM Mobile Phone - Interstellar Grey",
+                "brand": "XIAOMI",
+                "sellerId": 45697,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "4244.00",
+                    "price": "جنيه 4,244",
+                    "priceEuro": "226.82",
+                    "taxEuro": "27.85",
+                    "oldPrice": "جنيه 4,599",
+                    "oldPriceEuro": "245.79",
+                    "discount": "8%"
+                },
+                "tags": "BF20|Boost",
+                "rating": {
+                    "average": 5,
+                    "totalRatings": 1
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/70/734391/1.jpg?4186",
+                "url": "/ar/xiaomi-redmi-note-9-pro-6.67-inch-128gb6gb-dual-sim-mobile-phone-interstellar-grey-19343707.html",
+                "badges": {
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "XI606MP164307NAFAMZ-36124900",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=XI606MP164307NAFAMZ-36124900",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "4244.00",
+                        "price": "جنيه 4,244",
+                        "priceEuro": "226.82",
+                        "taxEuro": "27.85",
+                        "oldPrice": "جنيه 4,599",
+                        "oldPriceEuro": "245.79",
+                        "discount": "8%"
+                    }
+                }],
+                "selectedVariation": "XI606MP164307NAFAMZ-36124900"
+            },
+            {
+                "sku": "AP848EL0ZHKRRNAFAMZ",
+                "name": "آيفون XS Max - 512 جيجا - فضي",
+                "displayName": "Apple آيفون XS Max - 512 جيجا - فضي",
+                "brand": "Apple",
+                "sellerId": 38380,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/iOS Phones",
+                "prices": {
+                    "rawPrice": "16666.00",
+                    "price": "جنيه 16,666",
+                    "priceEuro": "890.71",
+                    "taxEuro": "109.38",
+                    "oldPrice": "جنيه 31,900",
+                    "oldPriceEuro": "1704.88",
+                    "discount": "48%"
+                },
+                "tags": "BF20|COL_143|COL_144|Camp_50",
+                "rating": {
+                    "average": 5,
+                    "totalRatings": 1
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/59/606631/1.jpg?1045",
+                "url": "/ar/iphone-xs-max-512gb-silver-apple-mpg135982.html",
+                "badges": {
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "AP848EL0ZHKRRNAFAMZ-25224789",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=AP848EL0ZHKRRNAFAMZ-25224789",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "16666.00",
+                        "price": "جنيه 16,666",
+                        "priceEuro": "890.71",
+                        "taxEuro": "109.38",
+                        "oldPrice": "جنيه 31,900",
+                        "oldPriceEuro": "1704.88",
+                        "discount": "48%"
+                    }
+                }],
+                "selectedVariation": "AP848EL0ZHKRRNAFAMZ-25224789"
+            },
+            {
+                "sku": "IN234MP0G8VGPNAFAMZ",
+                "name": "Hot 9 Play - 6.82-inch 32GB/2GB Dual SIM Mobile Phone - Midnight Black",
+                "displayName": "Infinix Hot 9 Play - 6.82-inch 32GB/2GB Dual SIM Mobile Phone - Midnight Black",
+                "brand": "Infinix",
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "1695.00",
+                    "price": "جنيه 1,695",
+                    "priceEuro": "90.59",
+                    "taxEuro": "11.12",
+                    "oldPrice": "جنيه 2,555",
+                    "oldPriceEuro": "136.55",
+                    "discount": "34%"
+                },
+                "rating": {
+                    "average": 4,
+                    "totalRatings": 2
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/27/287881/1.jpg?9286",
+                "url": "/ar/infinix-hot-9-play-6.82-inch-32gb2gb-dual-sim-mobile-phone-midnight-black-18878272.html",
+                "isBuyable": false,
+                "simples": [{
+                    "sku": "IN234MP0G8VGPNAFAMZ-35363357",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=IN234MP0G8VGPNAFAMZ-35363357",
+                    "isBuyable": false,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "1695.00",
+                        "price": "جنيه 1,695",
+                        "priceEuro": "90.59",
+                        "taxEuro": "11.12",
+                        "oldPrice": "جنيه 2,555",
+                        "oldPriceEuro": "136.55",
+                        "discount": "34%"
+                    }
+                }],
+                "selectedVariation": "IN234MP0G8VGPNAFAMZ-35363357"
+            },
+            {
+                "sku": "HU820EL08VRB9NAFAMZ",
+                "name": "Y9 Prime 2019 - 6.59 بوصة 128 جيجا بايت/ 4 جيجا بايت موبايل - أخضر إيمارلد",
+                "displayName": "Huawei Y9 Prime 2019 - 6.59 بوصة 128 جيجا بايت/ 4 جيجا بايت موبايل - أخضر إيمارلد",
+                "brand": "Huawei",
+                "sellerId": 22043,
+                "isShopExpress": true,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "3388.00",
+                    "price": "جنيه 3,388",
+                    "priceEuro": "181.07",
+                    "taxEuro": "22.24",
+                    "oldPrice": "جنيه 4,699",
+                    "oldPriceEuro": "251.14",
+                    "discount": "28%"
+                },
+                "tags": "BF20|COL_143|COL_144",
+                "rating": {
+                    "average": 3.7,
+                    "totalRatings": 3
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/14/918661/1.jpg?9644",
+                "url": "/ar/huawei-y9-prime-2019-6.59-inch-128gb4gb-mobile-phone-emerald-green-16681941.html",
+                "badges": {
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": true,
+                "shopExpress": {
+                    "title": "شحن سريع",
+                    "text": "مؤهل للشحن المجاني"
+                },
+                "simples": [{
+                    "sku": "HU820EL08VRB9NAFAMZ-31157988",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=HU820EL08VRB9NAFAMZ-31157988",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "3388.00",
+                        "price": "جنيه 3,388",
+                        "priceEuro": "181.07",
+                        "taxEuro": "22.24",
+                        "oldPrice": "جنيه 4,699",
+                        "oldPriceEuro": "251.14",
+                        "discount": "28%"
+                    }
+                }],
+                "selectedVariation": "HU820EL08VRB9NAFAMZ-31157988"
+            },
+            {
+                "sku": "SA024EL008SUPNAFAMZ",
+                "name": "Galaxy Note10+ - 6.8 بوصة 256 جيجا بايت/12 جيجا بايت ثنائي الشريحة 4G موبايل - أسود",
+                "displayName": "Samsung Galaxy Note10+ - 6.8 بوصة 256 جيجا بايت/12 جيجا بايت ثنائي الشريحة 4G موبايل - أسود",
+                "brand": "Samsung",
+                "sellerId": 45697,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "12899.00",
+                    "price": "جنيه 12,899",
+                    "priceEuro": "689.38",
+                    "taxEuro": "84.66"
+                },
+                "tags": "BF20|COL_5|Camp_50",
+                "rating": {
+                    "average": 5,
+                    "totalRatings": 4
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/00/410641/1.jpg?8446",
+                "url": "/ar/samsung-galaxy-note10-6.8-inch-256gb12gb-dual-sim-4g-mobile-phone-aura-black-14601400.html",
+                "badges": {
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "SA024EL008SUPNAFAMZ-27168450",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=SA024EL008SUPNAFAMZ-27168450",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "12899.00",
+                        "price": "جنيه 12,899",
+                        "priceEuro": "689.38",
+                        "taxEuro": "84.66"
+                    }
+                }],
+                "selectedVariation": "SA024EL008SUPNAFAMZ-27168450"
+            },
+            {
+                "sku": "RE540MP05DQJ3NAFAMZ",
+                "name": "7 Pro - 6.4-inch 128GB/8GB Dual SIM 4G Mobile Phone - Mirror Blue",
+                "displayName": "realme 7 Pro - 6.4-inch 128GB/8GB Dual SIM 4G Mobile Phone - Mirror Blue",
+                "brand": "realme",
+                "sellerId": 38930,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "6499.00",
+                    "price": "جنيه 6,499",
+                    "priceEuro": "347.34",
+                    "taxEuro": "42.66"
+                },
+                "tags": "BF20",
+                "rating": {
+                    "average": 0,
+                    "totalRatings": 0
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/09/038991/1.jpg?5607",
+                "url": "/ar/realme-7-pro-6.4-inch-128gb8gb-dual-sim-4g-mobile-phone-mirror-blue-19983090.html",
+                "badges": {
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "RE540MP05DQJ3NAFAMZ-37024790",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=RE540MP05DQJ3NAFAMZ-37024790",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "6499.00",
+                        "price": "جنيه 6,499",
+                        "priceEuro": "347.34",
+                        "taxEuro": "42.66"
+                    }
+                }],
+                "selectedVariation": "RE540MP05DQJ3NAFAMZ-37024790"
+            },
+            {
+                "sku": "HU820EL0H8LJLNAFAMZ",
+                "name": "MediaPad T3 7.0 – 8GB Single SIM Tablet - Space Grey",
+                "displayName": "Huawei MediaPad T3 7.0 – 8GB Single SIM Tablet - Space Grey",
+                "brand": "Huawei",
+                "isShopExpress": true,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "1555.00",
+                    "price": "جنيه 1,555",
+                    "priceEuro": "83.11",
+                    "taxEuro": "10.21",
+                    "oldPrice": "جنيه 1,777",
+                    "oldPriceEuro": "94.97",
+                    "discount": "12%"
+                },
+                "tags": "COL_133|Camp_50|HSBD|JMALL",
+                "rating": {
+                    "average": 0,
+                    "totalRatings": 0
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/28/954641/1.jpg?7108",
+                "url": "/ar/huawei-mediapad-t3-7.0-8gb-single-sim-tablet-space-grey-14645982.html",
+                "badges": {
+                    "main": {
+                        "name": "المتجر الرسمي",
+                        "identifier": "JMALL",
+                        "url": "/ar/all-products/?tag=JMALL"
+                    }
+                },
+                "isBuyable": true,
+                "shopExpress": {
+                    "title": "شحن سريع",
+                    "text": "مؤهل للشحن المجاني"
+                },
+                "simples": [{
+                    "sku": "HU820EL0H8LJLNAFAMZ-27285532",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=HU820EL0H8LJLNAFAMZ-27285532",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "1555.00",
+                        "price": "جنيه 1,555",
+                        "priceEuro": "83.11",
+                        "taxEuro": "10.21",
+                        "oldPrice": "جنيه 1,777",
+                        "oldPriceEuro": "94.97",
+                        "discount": "12%"
+                    }
+                }],
+                "selectedVariation": "HU820EL0H8LJLNAFAMZ-27285532"
+            },
+            {
+                "sku": "SA024MP0ZMWX9NAFAMZ",
+                "name": "Galaxy A71 - 6.7-inch 128GB/8GB Dual SIM 4G Mobile Phone - Prism Crush Black",
+                "displayName": "Samsung Galaxy A71 - 6.7-inch 128GB/8GB Dual SIM 4G Mobile Phone - Prism Crush Black",
+                "brand": "Samsung",
+                "sellerId": 45697,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "6380.00",
+                    "price": "جنيه 6,380",
+                    "priceEuro": "340.98",
+                    "taxEuro": "41.87"
+                },
+                "tags": "COL_143|COL_144",
+                "rating": {
+                    "average": 4.7,
+                    "totalRatings": 10
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/59/855661/1.jpg?7305",
+                "url": "/ar/samsung-galaxy-a71-6.7-inch-128gb8gb-dual-sim-4g-mobile-phone-prism-crush-black-16655895.html",
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "SA024MP0ZMWX9NAFAMZ-31113170",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=SA024MP0ZMWX9NAFAMZ-31113170",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "6380.00",
+                        "price": "جنيه 6,380",
+                        "priceEuro": "340.98",
+                        "taxEuro": "41.87"
+                    }
+                }],
+                "selectedVariation": "SA024MP0ZMWX9NAFAMZ-31113170"
+            },
+            {
+                "sku": "HU820MP1IM6PJNAFAMZ",
+                "name": "Y6p - 6.3-inch 64GB/3GB 4G Mobile Phone - Phantom Purple",
+                "displayName": "Huawei Y6p - 6.3-inch 64GB/3GB 4G Mobile Phone - Phantom Purple",
+                "brand": "Huawei",
+                "sellerId": 45697,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "2077.00",
+                    "price": "جنيه 2,077",
+                    "priceEuro": "111.00",
+                    "taxEuro": "13.63"
+                },
+                "rating": {
+                    "average": 3,
+                    "totalRatings": 3
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/91/734391/1.jpg?4310",
+                "url": "/ar/huawei-y6p-6.3-inch-64gb3gb-4g-mobile-phone-phantom-purple-19343719.html",
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "HU820MP1IM6PJNAFAMZ-36124912",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=HU820MP1IM6PJNAFAMZ-36124912",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "2077.00",
+                        "price": "جنيه 2,077",
+                        "priceEuro": "111.00",
+                        "taxEuro": "13.63"
+                    }
+                }],
+                "selectedVariation": "HU820MP1IM6PJNAFAMZ-36124912"
+            },
+            {
+                "sku": "OP872MP0XNSDJNAFAMZ",
+                "name": " A12 - 6.22-inch 32GB/3GB 4G Mobile Phone - Blue",
+                "displayName": "Oppo  A12 - 6.22-inch 32GB/3GB 4G Mobile Phone - Blue",
+                "brand": "Oppo",
+                "sellerId": 73783,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "3333.00",
+                    "price": "جنيه 3,333",
+                    "priceEuro": "178.13",
+                    "taxEuro": "21.88"
+                },
+                "tags": "BF20|Camp_50",
+                "rating": {
+                    "average": 5,
+                    "totalRatings": 3
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/56/537191/1.jpg?5384",
+                "url": "/ar/oppo-a12-6.22-inch-32gb3gb-4g-mobile-phone-blue-19173565.html",
+                "badges": {
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "OP872MP0XNSDJNAFAMZ-35835097",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=OP872MP0XNSDJNAFAMZ-35835097",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "3333.00",
+                        "price": "جنيه 3,333",
+                        "priceEuro": "178.13",
+                        "taxEuro": "21.88"
+                    }
+                }],
+                "selectedVariation": "OP872MP0XNSDJNAFAMZ-35835097"
+            },
+            {
+                "sku": "RE540MP0ASIYMNAFAMZ",
+                "name": "7i - 6.5-inch 128GB/8GB Dual SIM 4G Mobile Phone - Aurora Green",
+                "displayName": "realme 7i - 6.5-inch 128GB/8GB Dual SIM 4G Mobile Phone - Aurora Green",
+                "brand": "realme",
+                "sellerId": 4121,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "4285.00",
+                    "price": "جنيه 4,285",
+                    "priceEuro": "229.01",
+                    "taxEuro": "28.12",
+                    "oldPrice": "جنيه 10,000",
+                    "oldPriceEuro": "534.44",
+                    "discount": "57%"
+                },
+                "tags": "BF20|Camp_50",
+                "rating": {
+                    "average": 5,
+                    "totalRatings": 1
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/18/127102/1.jpg?1011",
+                "url": "/ar/realme-7i-6.5-inch-128gb8gb-dual-sim-4g-mobile-phone-aurora-green-20172181.html",
+                "badges": {
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "RE540MP0ASIYMNAFAMZ-37269706",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=RE540MP0ASIYMNAFAMZ-37269706",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "4285.00",
+                        "price": "جنيه 4,285",
+                        "priceEuro": "229.01",
+                        "taxEuro": "28.12",
+                        "oldPrice": "جنيه 10,000",
+                        "oldPriceEuro": "534.44",
+                        "discount": "57%"
+                    }
+                }],
+                "selectedVariation": "RE540MP0ASIYMNAFAMZ-37269706"
+            },
+            {
+                "sku": "HU820MP1NGB4VNAFAMZ",
+                "name": "nova 5T - 6.26-inch 128GB/8GB Dual SIM 4G Mobile Phone - Crush Blue",
+                "displayName": "Huawei nova 5T - 6.26-inch 128GB/8GB Dual SIM 4G Mobile Phone - Crush Blue",
+                "brand": "Huawei",
+                "sellerId": 45697,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "5555.00",
+                    "price": "جنيه 5,555",
+                    "priceEuro": "296.88",
+                    "taxEuro": "36.46"
+                },
+                "tags": "BF20|Boost|Camp_50",
+                "rating": {
+                    "average": 5,
+                    "totalRatings": 1
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/99/858271/1.jpg?5175",
+                "url": "/ar/huawei-nova-5t-6.26-inch-128gb8gb-dual-sim-4g-mobile-phone-crush-blue-17285899.html",
+                "badges": {
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "HU820MP1NGB4VNAFAMZ-32523115",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=HU820MP1NGB4VNAFAMZ-32523115",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "5555.00",
+                        "price": "جنيه 5,555",
+                        "priceEuro": "296.88",
+                        "taxEuro": "36.46"
+                    }
+                }],
+                "selectedVariation": "HU820MP1NGB4VNAFAMZ-32523115"
+            },
+            {
+                "sku": "HU820MP0Z2DNDNAFAMZ",
+                "name": "Y6s (2019) - 6.09-inch 64GB/3GB Dual SIM 4G Mobile Phone - Orchid Blue",
+                "displayName": "Huawei Y6s (2019) - 6.09-inch 64GB/3GB Dual SIM 4G Mobile Phone - Orchid Blue",
+                "brand": "Huawei",
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "1874.00",
+                    "price": "جنيه 1,874",
+                    "priceEuro": "100.15",
+                    "taxEuro": "12.30",
+                    "oldPrice": "جنيه 2,299",
+                    "oldPriceEuro": "122.87",
+                    "discount": "18%"
+                },
+                "tags": "BF20",
+                "rating": {
+                    "average": 4.1,
+                    "totalRatings": 34
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/58/897561/1.jpg?3826",
+                "url": "/ar/huawei-y6s-2019-6.09-inch-64gb3gb-dual-sim-4g-mobile-phone-orchid-blue-16579885.html",
+                "badges": {
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": false,
+                "simples": [{
+                    "sku": "HU820MP0Z2DNDNAFAMZ-31007961",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=HU820MP0Z2DNDNAFAMZ-31007961",
+                    "isBuyable": false,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "1874.00",
+                        "price": "جنيه 1,874",
+                        "priceEuro": "100.15",
+                        "taxEuro": "12.30",
+                        "oldPrice": "جنيه 2,299",
+                        "oldPriceEuro": "122.87",
+                        "discount": "18%"
+                    }
+                }],
+                "selectedVariation": "HU820MP0Z2DNDNAFAMZ-31007961"
+            },
+            {
+                "sku": "XI606MP06ZIBBNAFAMZ",
+                "name": "Mi Note 10 Lite - 6.47-inch 128GB/8GB Dual SIM Mobile Phone - Midnight Black",
+                "displayName": "XIAOMI Mi Note 10 Lite - 6.47-inch 128GB/8GB Dual SIM Mobile Phone - Midnight Black",
+                "brand": "XIAOMI",
+                "sellerId": 45697,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "5795.00",
+                    "price": "جنيه 5,795",
+                    "priceEuro": "309.71",
+                    "taxEuro": "38.03"
+                },
+                "tags": "COL_143|COL_144",
+                "rating": {
+                    "average": 5,
+                    "totalRatings": 3
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/11/734391/1.jpg?4251",
+                "url": "/ar/xiaomi-mi-note-10-lite-6.47-inch-128gb8gb-dual-sim-mobile-phone-midnight-black-19343711.html",
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "XI606MP06ZIBBNAFAMZ-36124904",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=XI606MP06ZIBBNAFAMZ-36124904",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "5795.00",
+                        "price": "جنيه 5,795",
+                        "priceEuro": "309.71",
+                        "taxEuro": "38.03"
+                    }
+                }],
+                "selectedVariation": "XI606MP06ZIBBNAFAMZ-36124904"
+            },
+            {
+                "sku": "IT359MP1HZ3Z5NAFAMZ",
+                "name": "A16 Plus - 5.0-inch 8GB/1GB Dual SIM 3G Mobile Phone - Black ",
+                "displayName": "Itel A16 Plus - 5.0-inch 8GB/1GB Dual SIM 3G Mobile Phone - Black ",
+                "brand": "Itel",
+                "sellerId": 46770,
+                "isShopExpress": true,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "753.69",
+                    "price": "جنيه 754",
+                    "priceEuro": "40.28",
+                    "taxEuro": "4.95",
+                    "oldPrice": "جنيه 1,500",
+                    "oldPriceEuro": "80.17",
+                    "discount": "50%"
+                },
+                "rating": {
+                    "average": 2,
+                    "totalRatings": 1
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/90/657761/1.jpg?9267",
+                "url": "/ar/a16-plus-5.0-inch-8gb1gb-dual-sim-3g-mobile-phone-black-itel-mpg721460.html",
+                "isBuyable": true,
+                "shopExpress": {
+                    "title": "شحن سريع",
+                    "text": "مؤهل للشحن المجاني"
+                },
+                "simples": [{
+                    "sku": "IT359MP1HZ3Z5NAFAMZ-31361376",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=IT359MP1HZ3Z5NAFAMZ-31361376",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "753.69",
+                        "price": "جنيه 754",
+                        "priceEuro": "40.28",
+                        "taxEuro": "4.95",
+                        "oldPrice": "جنيه 1,500",
+                        "oldPriceEuro": "80.17",
+                        "discount": "50%"
+                    }
+                }],
+                "selectedVariation": "IT359MP1HZ3Z5NAFAMZ-31361376"
+            },
+            {
+                "sku": "OP872MP0BBAVYNAFAMZ",
+                "name": "A53 - 6.5-inch 64GB/4GB Mobile Phone - Fancy Blue",
+                "displayName": "Oppo A53 - 6.5-inch 64GB/4GB Mobile Phone - Fancy Blue",
+                "brand": "Oppo",
+                "sellerId": 45697,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "3130.00",
+                    "price": "جنيه 3,130",
+                    "priceEuro": "167.28",
+                    "taxEuro": "20.54"
+                },
+                "tags": "BF20|Camp_50",
+                "rating": {
+                    "average": 0,
+                    "totalRatings": 0
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/19/003102/1.jpg?3226",
+                "url": "/ar/oppo-a53-6.5-inch-64gb4gb-mobile-phone-fancy-blue-20130091.html",
+                "badges": {
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "OP872MP0BBAVYNAFAMZ-37219722",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=OP872MP0BBAVYNAFAMZ-37219722",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "3130.00",
+                        "price": "جنيه 3,130",
+                        "priceEuro": "167.28",
+                        "taxEuro": "20.54"
+                    }
+                }],
+                "selectedVariation": "OP872MP0BBAVYNAFAMZ-37219722"
+            },
+            {
+                "sku": "SA024MP07KD33NAFAMZ",
+                "name": "Galaxy Note10 Lite - 6.7-inch 128GB/8GB Dual SIM 4G Mobile Phone - Aura Glow",
+                "displayName": "Samsung Galaxy Note10 Lite - 6.7-inch 128GB/8GB Dual SIM 4G Mobile Phone - Aura Glow",
+                "brand": "Samsung",
+                "sellerId": 45697,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "7944.00",
+                    "price": "جنيه 7,944",
+                    "priceEuro": "424.56",
+                    "taxEuro": "52.14"
+                },
+                "tags": "BF20|COL_143|COL_144|Camp_50",
+                "rating": {
+                    "average": 5,
+                    "totalRatings": 1
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/12/707391/1.jpg?9069",
+                "url": "/ar/samsung-galaxy-note10-lite-6.7-inch-128gb8gb-dual-sim-4g-mobile-phone-aura-glow-19370721.html",
+                "badges": {
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "SA024MP07KD33NAFAMZ-36161198",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=SA024MP07KD33NAFAMZ-36161198",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "7944.00",
+                        "price": "جنيه 7,944",
+                        "priceEuro": "424.56",
+                        "taxEuro": "52.14"
+                    }
+                }],
+                "selectedVariation": "SA024MP07KD33NAFAMZ-36161198"
+            },
+            {
+                "sku": "SA024MP15L8Z1NAFAMZ",
+                "name": "Galaxy A71 - 6.7-inch 128GB/8GB Dual SIM 4G Mobile Phone - Prism Crush Blue",
+                "displayName": "Samsung Galaxy A71 - 6.7-inch 128GB/8GB Dual SIM 4G Mobile Phone - Prism Crush Blue",
+                "brand": "Samsung",
+                "sellerId": 45697,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "6380.00",
+                    "price": "جنيه 6,380",
+                    "priceEuro": "340.98",
+                    "taxEuro": "41.87"
+                },
+                "tags": "COL_143|COL_144",
+                "rating": {
+                    "average": 3.6,
+                    "totalRatings": 5
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/69/855661/1.jpg?7295",
+                "url": "/ar/samsung-galaxy-a71-6.7-inch-128gb8gb-dual-sim-4g-mobile-phone-prism-crush-blue-16655896.html",
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "SA024MP15L8Z1NAFAMZ-31113171",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=SA024MP15L8Z1NAFAMZ-31113171",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "6380.00",
+                        "price": "جنيه 6,380",
+                        "priceEuro": "340.98",
+                        "taxEuro": "41.87"
+                    }
+                }],
+                "selectedVariation": "SA024MP15L8Z1NAFAMZ-31113171"
+            },
+            {
+                "sku": "XI606MP02TBAJNAFAMZ",
+                "name": "Redmi Note 9S - 6.67-inch 128GB/6GB Dual SIM Mobile Phone - Aurora Blue",
+                "displayName": "XIAOMI Redmi Note 9S - 6.67-inch 128GB/6GB Dual SIM Mobile Phone - Aurora Blue",
+                "brand": "XIAOMI",
+                "sellerId": 4121,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "3823.00",
+                    "price": "جنيه 3,823",
+                    "priceEuro": "204.32",
+                    "taxEuro": "25.09",
+                    "oldPrice": "جنيه 7,000",
+                    "oldPriceEuro": "374.11",
+                    "discount": "45%"
+                },
+                "rating": {
+                    "average": 5,
+                    "totalRatings": 2
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/04/726891/1.jpg?9755",
+                "url": "/ar/xiaomi-redmi-note-9s-6.67-inch-128gb6gb-dual-sim-mobile-phone-aurora-blue-19862740.html",
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "XI606MP02TBAJNAFAMZ-36849320",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=XI606MP02TBAJNAFAMZ-36849320",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "3823.00",
+                        "price": "جنيه 3,823",
+                        "priceEuro": "204.32",
+                        "taxEuro": "25.09",
+                        "oldPrice": "جنيه 7,000",
+                        "oldPriceEuro": "374.11",
+                        "discount": "45%"
+                    }
+                }],
+                "selectedVariation": "XI606MP02TBAJNAFAMZ-36849320"
+            },
+            {
+                "sku": "AP848EL15FWTJNAFAMZ",
+                "name": "آيفون XS Max - 512 جيجا - رمادي",
+                "displayName": "Apple آيفون XS Max - 512 جيجا - رمادي",
+                "brand": "Apple",
+                "sellerId": 38380,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/iOS Phones",
+                "prices": {
+                    "rawPrice": "16499.00",
+                    "price": "جنيه 16,499",
+                    "priceEuro": "881.78",
+                    "taxEuro": "108.29",
+                    "oldPrice": "جنيه 31,900",
+                    "oldPriceEuro": "1704.88",
+                    "discount": "48%"
+                },
+                "tags": "BF20|Camp_50",
+                "rating": {
+                    "average": 5,
+                    "totalRatings": 2
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/69/606631/1.jpg?6807",
+                "url": "/ar/iphone-xs-max-512gb-space-gray-apple-mpg135983.html",
+                "badges": {
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "AP848EL15FWTJNAFAMZ-25224790",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=AP848EL15FWTJNAFAMZ-25224790",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "16499.00",
+                        "price": "جنيه 16,499",
+                        "priceEuro": "881.78",
+                        "taxEuro": "108.29",
+                        "oldPrice": "جنيه 31,900",
+                        "oldPriceEuro": "1704.88",
+                        "discount": "48%"
+                    }
+                }],
+                "selectedVariation": "AP848EL15FWTJNAFAMZ-25224790"
+            },
+            {
+                "sku": "SA024MP1LKM43NAFAMZ",
+                "name": "Galaxy M51 - 6.7-inch 128GB/8GB Dual SIM 4G Mobile Phone - Black",
+                "displayName": "Samsung Galaxy M51 - 6.7-inch 128GB/8GB Dual SIM 4G Mobile Phone - Black",
+                "brand": "Samsung",
+                "sellerId": 22043,
+                "isShopExpress": true,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "6361.00",
+                    "price": "جنيه 6,361",
+                    "priceEuro": "339.96",
+                    "taxEuro": "41.75",
+                    "oldPrice": "جنيه 7,500",
+                    "oldPriceEuro": "400.83",
+                    "discount": "15%"
+                },
+                "tags": "BF20|COL_143|COL_144",
+                "rating": {
+                    "average": 5,
+                    "totalRatings": 1
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/96/699891/1.jpg?3994",
+                "url": "/ar/samsung-galaxy-m51-6.7-inch-128gb8gb-dual-sim-4g-mobile-phone-black-19899669.html",
+                "badges": {
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": true,
+                "shopExpress": {
+                    "title": "شحن سريع",
+                    "text": "مؤهل للشحن المجاني"
+                },
+                "simples": [{
+                    "sku": "SA024MP1LKM43NAFAMZ-36914089",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=SA024MP1LKM43NAFAMZ-36914089",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "6361.00",
+                        "price": "جنيه 6,361",
+                        "priceEuro": "339.96",
+                        "taxEuro": "41.75",
+                        "oldPrice": "جنيه 7,500",
+                        "oldPriceEuro": "400.83",
+                        "discount": "15%"
+                    }
+                }],
+                "selectedVariation": "SA024MP1LKM43NAFAMZ-36914089"
+            },
+            {
+                "sku": "IN234MP0XAVVMNAFAMZ",
+                "name": "X682B Hot 10 - 6.78-inch 64GB/4GB Dual SIM 4G Mobile Phone - Obsidian Black",
+                "displayName": "Infinix X682B Hot 10 - 6.78-inch 64GB/4GB Dual SIM 4G Mobile Phone - Obsidian Black",
+                "brand": "Infinix",
+                "sellerId": 5934,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "2300.00",
+                    "price": "جنيه 2,300",
+                    "priceEuro": "122.92",
+                    "taxEuro": "15.10"
+                },
+                "tags": "BF20|Camp_50|Camp_95|Camp_96",
+                "rating": {
+                    "average": 0,
+                    "totalRatings": 0
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/55/935202/1.jpg?7096",
+                "url": "/ar/infinix-x682b-hot-10-6.78-inch-64gb4gb-dual-sim-4g-mobile-phone-obsidian-black-20253955.html",
+                "badges": {
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": true,
+                "simples": [{
+                    "sku": "IN234MP0XAVVMNAFAMZ-37368031",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=IN234MP0XAVVMNAFAMZ-37368031",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "2300.00",
+                        "price": "جنيه 2,300",
+                        "priceEuro": "122.92",
+                        "taxEuro": "15.10"
+                    }
+                }],
+                "selectedVariation": "IN234MP0XAVVMNAFAMZ-37368031"
+            },
+            {
+                "sku": "HU820MP0WOHDZNAFAMZ",
+                "name": "nova 7 SE - 6.5-inch 128GB/8GB 5G Mobile Phone - Crush Green + Free AM61 - Sport Wireless Earphones",
+                "displayName": "Huawei nova 7 SE - 6.5-inch 128GB/8GB 5G Mobile Phone - Crush Green + Free AM61 - Sport Wireless Earphones",
+                "brand": "Huawei",
+                "isShopExpress": true,
+                "categories": "Phones & Tablets/Mobile Phones/Smartphones/Android Phones",
+                "prices": {
+                    "rawPrice": "5065.00",
+                    "price": "جنيه 5,065",
+                    "priceEuro": "270.70",
+                    "taxEuro": "33.24",
+                    "oldPrice": "جنيه 5,899",
+                    "oldPriceEuro": "315.27",
+                    "discount": "14%"
+                },
+                "tags": "BF20|Camp_17|Camp_50|JMALL",
+                "rating": {
+                    "average": 0,
+                    "totalRatings": 0
+                },
+                "image": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/54/889991/1.jpg?4101",
+                "url": "/ar/huawei-nova-7-se-6.5-inch-128gb8gb-5g-mobile-phone-crush-green-free-am61-sport-wireless-earphones-19998845.html",
+                "badges": {
+                    "main": {
+                        "name": "المتجر الرسمي",
+                        "identifier": "JMALL",
+                        "url": "/ar/all-products/?tag=JMALL"
+                    },
+                    "campaign": {
+                        "name": "BF20",
+                        "identifier": "BF20",
+                        "image": "https://eg.jumia.is/badges/bf20/3/240x32.png?2324",
+                        "url": "/ar/all-products/?tag=BF20"
+                    }
+                },
+                "isBuyable": true,
+                "shopExpress": {
+                    "title": "شحن سريع",
+                    "text": "مؤهل للشحن المجاني"
+                },
+                "simples": [{
+                    "sku": "HU820MP0WOHDZNAFAMZ-37054666",
+                    "loginUrl": "/ar/customer/account/login/?tkPdpWl=HU820MP0WOHDZNAFAMZ-37054666",
+                    "isBuyable": true,
+                    "name": "",
+                    "prices": {
+                        "rawPrice": "5065.00",
+                        "price": "جنيه 5,065",
+                        "priceEuro": "270.70",
+                        "taxEuro": "33.24",
+                        "oldPrice": "جنيه 5,899",
+                        "oldPriceEuro": "315.27",
+                        "discount": "14%"
+                    }
+                }],
+                "selectedVariation": "HU820MP0WOHDZNAFAMZ-37054666"
+            }
+        ],
+        "sorting": {
+            "label": "ترتيب حسب",
+            "selected": "مشهور",
+            "options": [{
+                    "text": "مشهور",
+                    "url": "/ar/smartphones/?page=2",
+                    "selected": true
+                },
+                {
+                    "text": "وصل حديثًا",
+                    "url": "/ar/smartphones/?sort=newest&page=2"
+                },
+                {
+                    "text": "السعر: الأقل الي الأعلي",
+                    "url": "/ar/smartphones/?sort=lowest-price&page=2"
+                },
+                {
+                    "text": "السعر: الأعلي الي الأقل",
+                    "url": "/ar/smartphones/?sort=highest-price&page=2"
+                },
+                {
+                    "text": "تقييم العملاء",
+                    "url": "/ar/smartphones/?sort=rating&page=2"
+                }
+            ]
+        },
+        "viewType": "grid",
+        "showQtySelector": true,
+        "back2TopCTA": "العودة لاعلي الصفحة",
+        "timeLabels": {
+            "w": "أسبوع",
+            "d": "يوم",
+            "h": "ساعه",
+            "m": "دقيقه",
+            "s": "ثانية"
+        },
+        "showMoreCTA": "عرض المزيد",
+        "showLessCTA": "عرض أقل",
+        "seeAllCTA": "عرض الكل",
+        "timeLeftText": "الوقت المتبقي",
+        "sponsoredProducts": {
+            "positions": {
+                "first": 2,
+                "interval": 4,
+                "total": 8
+            },
+            "fragmentUrl": "/fragment/sponsored/products/catalog-page-types/category/?fq=%7B%22category%22%3A8245%7D&page=2&numberItems=8&viewType=grid",
+            "hasFallback": true
+        },
+        "pagination": {
+            "prevCTA": "الصفحة السابقة",
+            "nextCTA": "الصفحة التالية",
+            "total": 26,
+            "page": 2,
+            "uri": {
+                "baseUrl": "/ar/smartphones/",
+                "params": ""
+            }
+        },
+        "cmsKey": "category:Smartphones_8245_ar_EG",
+        "cmsRev": 165,
+        "cmsItems": [],
+        "filtersUrl": "/ar/catalog/filters/?return=%2Far%2Fsmartphones%2F%3Fpage%3D2",
+        "outOfStockText": "نفذ المخزون",
+        "buyNowCTA": "اضف إلى سلة التسوق",
+        "soldOutCTA": "تم البيع",
+        "filtersCTA": "الفلتر",
+        "gridViewCTA": "عرض جانبى",
+        "listViewCTA": "عرض بقائمة",
+        "cartQtyIncreaseCTA": "زيادة كمية المنتجات في عربة التسوق",
+        "cartQtyDecreaseCTA": "تقليل كمية المنتجات في عربة التسوق",
+        "htmlErrors": {
+            "valueMissing": "معلومات مطلوبة"
+        },
+        "variationsTitle": "اختار الخيارات",
+        "unavailableText": "غبر متوفر حاليًا",
+        "addToCart": {
+            "continueCTA": "متابعة التسوق",
+            "viewCTA": "عرض سلة التسوق وإتمام الشراء",
+            "popupTitle": "الرجاء اختيار خيارات أخري",
+            "closeCTA": "close popup"
+        },
+        "lastViewed": {
+            "title": "المنتجات التي تمت مشاهدتها مؤخرًا",
+            "seeAllCTA": "عرض الكل"
+        }
+    },
+    "head": {
+        "dynamic": {
+            "title": "اشتري سمارت فون اون لاين - اشترى هاتف ذكي هنا | جوميا مصر",
+            "meta": [{
+                    "property": "og:type",
+                    "content": "product"
+                },
+                {
+                    "property": "og:site_name",
+                    "content": "Jumia مصر"
+                },
+                {
+                    "property": "og:title",
+                    "content": "اشتري سمارت فون اون لاين - اشترى هاتف ذكي هنا | جوميا مصر"
+                },
+                {
+                    "property": "og:description",
+                    "content": "اشتري هاتف ذكي اون لاين عبر جوميا مصر بأرخص الاسعار في السوق – استمتع بامكانية شراء سمارت فون جديد بافضل سعر فى مصر – طرق دفع امنه | ارجاع مجانى للمنتجات"
+                },
+                {
+                    "property": "og:url",
+                    "content": "/ar/smartphones/"
+                },
+                {
+                    "property": "og:image",
+                    "content": "https://eg.jumia.is/cms/14-18/logo.png"
+                },
+                {
+                    "property": "og:locale",
+                    "content": "ar_EG"
+                },
+                {
+                    "property": "og:locale:alternate",
+                    "content": "en_EG"
+                },
+                {
+                    "name": "title",
+                    "content": "اشتري سمارت فون اون لاين - اشترى هاتف ذكي هنا | جوميا مصر"
+                },
+                {
+                    "name": "robots",
+                    "content": "noindex,follow"
+                },
+                {
+                    "name": "description",
+                    "content": "اشتري هاتف ذكي اون لاين عبر جوميا مصر بأرخص الاسعار في السوق – استمتع بامكانية شراء سمارت فون جديد بافضل سعر فى مصر – طرق دفع امنه | ارجاع مجانى للمنتجات"
+                }
+            ],
+            "link": [{
+                    "rel": "alternate",
+                    "href": "android-app://com.jumia.android/JUMIA/EG/c/smartphones&page=2?utm_source=google&utm_medium=organic&adjust_tracker=j1hd8h&adjust_campaign=GOOGLE_SEARCH&adjust_adgroup=https%3A%2F%2Fwww.jumia.com.eg%2Far%2Fsmartphones%2F%3Fpage%3D2"
+                },
+                {
+                    "rel": "canonical",
+                    "href": "https://www.jumia.com.eg/ar/smartphones/"
+                },
+                {
+                    "rel": "next",
+                    "href": "https://www.jumia.com.eg/ar/smartphones/?page=3"
+                },
+                {
+                    "rel": "prev",
+                    "href": "https://www.jumia.com.eg/ar/smartphones/?page=1"
+                }
+            ]
+        },
+        "static": {
+            "meta": [{
+                    "property": "fb:app_id",
+                    "content": "413652859092940"
+                },
+                {
+                    "property": "fb:pages",
+                    "content": "341181455959413,351040008314819"
+                },
+                {
+                    "name": "msvalidate.01",
+                    "content": "18D4C7784A54CEB370A0B89D0634A096"
+                }
+            ]
+        }
+    },
+    "view": "Catalog",
+    "activeLanguage": "ar",
+    "languages": {
+        "en": {
+            "text": "English",
+            "default": true
+        },
+        "ar": {
+            "text": "عربي",
+            "isRTL": true
+        }
+    },
+    "languagesData": {
+        "en": "/en/smartphones/?page=2",
+        "ar": "/ar/smartphones/?page=2"
+    },
+    "countryCode": "EG",
+    "url": "/ar/smartphones/?page=2",
+    "device": "mobile",
+    "header": {
+        "accountCTA": "حسابي",
+        "backCTA": "الرجوع للخلف",
+        "cartCTA": "سلة التسوق",
+        "logoCTA": "تسوق عبر الانترنت من جوميا - أفضل العروض من أكبر مواقع تسوق فى مصر | جوميا مصر",
+        "menuCTA": "القائمة",
+        "searchForm": {
+            "fields": {
+                "q": {
+                    "label": "البحث",
+                    "placeholder": "البحث عن منتجات، والعلامات التجارية والأقسام",
+                    "value": ""
+                }
+            }
+        },
+        "searchCTA": "بحث",
+        "resetCTA": "اعادة البحث",
+        "submitCTA": "ابحث"
+    },
+    "footer": {
+        "copyrightText": "جميع الحقوق محفوظة",
+        "rev": 4,
+        "links": [{
+                "url": "/ar/help/",
+                "text": "المساعدة"
+            },
+            {
+                "url": "/ar/contact/",
+                "text": "اتصل بنا"
+            },
+            {
+                "url": "/ar/terms-of-use/",
+                "text": "الشروط و الأحكام"
+            },
+            {
+                "url": "https://vendorhub.jumia.com.eg/ar/terms-and-agreements-2/  ",
+                "text": "بيع على جوميا "
+            },
+            {
+                "url": "https://docs.google.com/forms/d/1poBfqrj0bXCtkvJIm_24mLCTdvKJNebDB7-ATHZwRW4/edit",
+                "text": "الإبلاغ عن منتج"
+            }
+        ]
+    },
+    "user": {
+        "isGuest": true
+    },
+    "cart": {
+        "count": 0
+    },
+    "reCaptcha": null,
+    "tracking": {
+        "gtm": {
+            "key": "GTM-KS6DC65",
+            "url": "/ar/smartphones/?page=2",
+            "pageType": "catalog",
+            "pageSubtype": "category",
+            "pageKey": "catalog_category",
+            "hasCPR": 0,
+            "catFilterIds": "8070/8244/8245",
+            "catFilterNames": [
+                "موبايلات وتابلت",
+                "موبايلات",
+                "الهواتف الذكية"
+            ],
+            "sponsored": {
+                "apiKey": "dbff9ad984fbd7ce5d26d14273610195a1b51430CPM",
+                "userId": "37252672192985794515fb7be935e30d",
+                "pageId": "الهواتف الذكية",
+                "pageType": "category"
+            }
+        }
+    },
+    "abTests": [],
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+    "banners": {
+        "top": {
+            "id": 1623,
+            "name": "BF Live Sticky Mobile",
+            "endTime": "2020-11-30T23:47:00+02:00",
+            "img": "https://eg.jumia.is/cms/bf-20/1Launch/13th/sticky/APP-AR.gif",
+            "url": "https://www.jumia.com.eg/mlp-black-friday/",
+            "closable": false,
+            "color": "#000",
+            "closeCTA": "اغلق النافذه"
+        }
+    },
+    "nlPopup": null,
+    "rtPopup": null,
+    "ads": {
+        "key": "21834584457",
+        "targeting": {
+            "category": [
+                "Phones  Tablets",
+                "Mobile Phones",
+                "Smartphones"
+            ],
+            "brand": [],
+            "seller": []
+        },
+        "placements": {
+            "catalog_top": true,
+            "catalog_bottom": true
+        }
+    },
+    "headerData": {
+        "type": "main"
+    },
+    "sideDrawer": {
+        "logoText": "شعار جوميا",
+        "closeCTA": "إغلاق النافذة الجانبية",
+        "accountCTA": " حسابي علي جوميا",
+        "ordersCTA": "الطلبات",
+        "reviewsCTA": "التقييمات في انتظار التأكيد",
+        "vouchersCTA": "رصيد جوميا",
+        "wishlistCTA": "المنتجات المحفوظة",
+        "categories": {
+            "title": "أقسامنا",
+            "seeAllCTA": "عرض الكل",
+            "links": [{
+                    "url": "/groceries/",
+                    "text": "سوبرماركت",
+                    "icon": "cat-groceries"
+                },
+                {
+                    "url": "/category-fashion-by-jumia/",
+                    "text": "أزياء",
+                    "icon": "cat-fashion"
+                },
+                {
+                    "url": "/health-beauty/",
+                    "text": "الصحة و الجمال",
+                    "icon": "cat-beauty"
+                },
+                {
+                    "url": "/baby-products/",
+                    "text": "منتجات العناية بالأطفال",
+                    "icon": "cat-baby"
+                },
+                {
+                    "url": "/phones-tablets/",
+                    "text": "موبايلات وتابلت",
+                    "icon": "cat-mobile"
+                },
+                {
+                    "url": "/home-office/",
+                    "text": "المنزل و المكتب",
+                    "icon": "cat-home"
+                },
+                {
+                    "url": "/electronics/",
+                    "text": "إلكترونيات",
+                    "icon": "cat-tv"
+                },
+                {
+                    "url": "/computing/",
+                    "text": "الكمبيوتر",
+                    "icon": "cat-computing"
+                },
+                {
+                    "url": "/sporting-goods/",
+                    "text": "مستلزمات رياضية",
+                    "icon": "cat-fitness"
+                },
+                {
+                    "url": "/video-games/",
+                    "text": "العاب",
+                    "icon": "cat-games"
+                }
+            ]
+        },
+        "services": {
+            "title": "خدماتنا",
+            "seeAllCTA": "عرض الكل",
+            "links": [{
+                    "url": "https://5y2z.adj.st/services/recharge?adjust_t=3n2oeoo_3xwuv7t&adjust_deeplink=jumiaoneapp%3A%2F%2Fservices%2Frecharge",
+                    "text": "شحن رصيد و فواتير الموبايلات",
+                    "icon": "services"
+                },
+                {
+                    "url": "https://5y2z.adj.st/services/internet-bills?adjust_t=3n2oeoo_3xwuv7t&adjust_deeplink=jumiaoneapp%3A%2F%2Fservices%2Finternet-bills",
+                    "text": "فواتير الإنترنت",
+                    "icon": "services"
+                },
+                {
+                    "url": "https://5y2z.adj.st/services/electricity-bills?adjust_t=3n2oeoo_3xwuv7t&adjust_deeplink=jumiaoneapp%3A%2F%2Fservices%2Felectricity-bills",
+                    "text": "فواتير الكهرباء",
+                    "icon": "services"
+                },
+                {
+                    "url": "https://5y2z.adj.st/services/landline-bills?adjust_t=3n2oeoo_3xwuv7t&adjust_deeplink=jumiaoneapp%3A%2F%2Fservices%2Flandline-bills",
+                    "text": "فواتير التليفون الأرضى",
+                    "icon": "services"
+                },
+                {
+                    "url": "https://5y2z.adj.st/services/water-bills?adjust_t=3n2oeoo_3xwuv7t&adjust_deeplink=jumiaoneapp%3A%2F%2Fservices%2Fwater-bills",
+                    "text": "فواتير المياه",
+                    "icon": "services"
+                },
+                {
+                    "url": "https://5y2z.adj.st/services/gas-bills?adjust_t=3n2oeoo_3xwuv7t&adjust_deeplink=jumiaoneapp%3A%2F%2Fservices%2Fgas-bills",
+                    "text": "فواتير الغاز",
+                    "icon": "services"
+                },
+                {
+                    "url": "https://5y2z.adj.st/services/bein?adjust_t=3n2oeoo_3xwuv7t&adjust_deeplink=jumiaoneapp%3A%2F%2Fservices%2Fbein",
+                    "text": "إشتراكات التليفزيون (بى إن سبورت & Watch iT)",
+                    "icon": "cat-tv"
+                },
+                {
+                    "url": "https://5y2z.adj.st/services/gaming?adjust_t=3n2oeoo_3xwuv7t&adjust_deeplink=jumiaoneapp%3A%2F%2Fservices%2Fgaming",
+                    "text": "إشتراكات/كروت ألعاب",
+                    "icon": "services"
+                },
+                {
+                    "url": "https://5y2z.adj.st/services/donations?adjust_t=3n2oeoo_3xwuv7t&adjust_deeplink=jumiaoneapp%3A%2F%2Fservices%2Fdonations",
+                    "text": "تبرعات",
+                    "icon": "services"
+                }
+            ],
+            "bottomLinks": [{
+                    "url": "https://www.jumia.com.eg/jumia-rewards/",
+                    "text": "برنامج جوميا للمكافآت"
+                },
+                {
+                    "url": "https://vendorhub.jumia.com.eg/ar/terms-and-agreements-2/  ",
+                    "text": "بيع على جوميا "
+                },
+                {
+                    "url": "https://www.jumia.com.eg/jumia-affiliate/?internal=mobile-menu",
+                    "text": "برنامج التسويق بالعمولة"
+                },
+                {
+                    "url": "/jforce-consultant/",
+                    "text": "ابدا بزنس مع جوميا (J-Force )"
+                },
+                {
+                    "url": "/ar/help/",
+                    "text": "المساعدة"
+                },
+                {
+                    "url": "/ar/contact/",
+                    "text": "اتصل بنا"
+                }
+            ]
+        }
+    },
+    "smartBanner": [],
+    "showFooter": true
+}
