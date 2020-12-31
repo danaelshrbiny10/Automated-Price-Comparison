@@ -22,9 +22,19 @@ headers = {
 response = requests.request("GET", url, headers=headers).json()
 print(response)
 
-html = requests.get("https://www.jumia.com.eg/android-phones/")
-soup = BeautifulSoup(html.read(), 'lxml')
+res = requests.get("https://www.jumia.com.eg/android-phones/")
+soup = BeautifulSoup(res.text(), 'lxml')
 links = []
 for link in soup.find_all('a'):
   links.append(link.get('href'))
 print(links[:14])
+
+## another solution :
+'''
+res = requests.get('https://www.jumia.com.eg/android-phones/')
+soup = bs4.BeautifulSoup(res.text , 'lxml')
+link = response.headers.get('link', None)
+if link in soup.find_all('a', href=True):
+  print(link['href'])
+
+''''
