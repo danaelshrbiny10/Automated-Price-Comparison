@@ -1,0 +1,15 @@
+amqp==1.4.9
+anyjson==0.3.3
+asgiref==3.3.1
+billiard==3.3.0.23
+celery==3.1.18
+certifi==2020.12.5
+chardet==4.0.0
+Django==3.1.4
+idna==2.10
+kombu==3.0.37
+Pillow==8.0.1
+pytz==2020.5
+requests==2.25.1
+sqlparse==0.4.1
+urllib3==1.26.2
