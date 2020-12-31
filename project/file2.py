@@ -1,5 +1,6 @@
 import requests
 import pandas as pd
+import json
 
 headers = {
   'authority': 'www.jumia.com.eg',

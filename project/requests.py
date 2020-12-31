@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-import requests
-# from bs4 import beautifulsoup
-
+import requests , urllib
+from bs4 import BeautifulSoup
+from requests import *
 url = 'https://www.jumia.com.eg/ar/smartphones/?page=2'
 
 
