@@ -21,7 +21,7 @@ headers = {
 }
 response = requests.request("GET", url, headers=headers).json()
 print(response)
-
+'''
 res = requests.get("https://www.jumia.com.eg/android-phones/")
 soup = BeautifulSoup(res.text(), 'lxml')
 links = []
@@ -37,4 +37,3 @@ link = response.headers.get('link', None)
 if link in soup.find_all('a', href=True):
   print(link['href'])
 
-'''
