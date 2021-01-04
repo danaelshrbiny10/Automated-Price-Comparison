@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-'''
 import requests , urllib , urlscraping
 from bs4 import BeautifulSoup
 
@@ -20,7 +20,7 @@ headers = {
 }
 response = requests.request("GET", url, headers=headers).json()
 print(response)
-
+'''
 
 '''
 ## trying to get all url links :
