@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-import requests , urllib
+import requests , urllib , urlscraping
 from bs4 import BeautifulSoup
-
 
 url = 'https://www.jumia.com.eg/ar/smartphones/?page=2'
 
@@ -21,7 +20,11 @@ headers = {
 }
 response = requests.request("GET", url, headers=headers).json()
 print(response)
+
+
 '''
+## trying to get all url links :
+
 res = requests.get("https://www.jumia.com.eg/android-phones/")
 soup = BeautifulSoup(res.text(), 'lxml')
 links = []
@@ -30,10 +33,11 @@ for link in soup.find_all('a'):
 print(links[:14])
 
 ## another solution :
-'''
+
 res = requests.get('https://www.jumia.com.eg/android-phones/')
 soup = bs4.BeautifulSoup(res.text , 'lxml')
 link = response.headers.get('link', None)
 if link in soup.find_all('a', href=True):
   print(link['href'])
 
+'''
