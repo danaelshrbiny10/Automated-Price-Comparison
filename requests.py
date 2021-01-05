@@ -1,10 +1,30 @@
 # -*- coding: utf-8 -*-
-import requests , urllib , urlscraping
-from bs4 import BeautifulSoup
+import requests 
+from bs4 import BeautifulSoup as bs
 
-url = 'https://www.jumia.com.eg/ar/smartphones/?page=2'
+URL = 'https://www.jumia.com.eg/ar/smartphones/?page='
 
+for page in range(1,16):
+      #print(page)
 
+      page = 1
+      req = requests.get(URL + str(page))
+      soup = bs(req.text , 'html.parser')
+      # print(soup)
+      article = soup.find('div' , attrs={'class' , '-paxs row _no-g _4cl-3cm-shs'})
+      products = article.find_all('h4')
+
+       for product in products:
+        links = product.find_all('a') 
+        title = links[0].text
+        price = ''
+          try:
+            price = links[1].text
+          except :
+            pass
+           print('title : %s /n price : %s ' % (title , price))
+
+'''
 headers = {
   'authority': 'www.jumia.com.eg',
   'pragma': 'no-cache',
@@ -21,24 +41,4 @@ headers = {
 response = requests.request("GET", url, headers=headers).json()
 print(response)
 
-
 '''
-## trying to get all url links :
-
-res = requests.get("https://www.jumia.com.eg/android-phones/")
-soup = BeautifulSoup(res.text(), 'lxml')
-links = []
-for link in soup.find_all('a'):
-  links.append(link.get('href'))
-print(links[:14])
-
-## another solution :
-
-res = requests.get('https://www.jumia.com.eg/android-phones/')
-soup = bs4.BeautifulSoup(res.text , 'lxml')
-link = response.headers.get('link', None)
-if link in soup.find_all('a', href=True):
-  print(link['href'])
-
-'''
-
