@@ -2,23 +2,6 @@ from bs4 import BeautifulSoup
 from requests import *
 
 
-url = 'https://www.jumia.com.eg/android-phones/'
-response =  requests.get(url)
-response.status_code
-
-soup = BeautifulSoup(response.content)
-
-## find elements by class 
-
-results = soup.find_all('div' , class_="-pvs col12")
-print(results)
-
-all_urls = [results.find('div' , class_="-pvs col12").text.strip for result in results]
-
-
-'''
-## another solution :
-
 ## creating empty list 
 urls = []
 
@@ -41,4 +24,22 @@ def scrape(site):
 if __name__ == "__main__" :
     site = "https://www.jumia.com.eg/android-phones/"
     scrape(site)               
+
+
+
+'''
+
+url = 'https://www.jumia.com.eg/android-phones/'
+response =  requests.get(url)
+response.status_code
+
+soup = BeautifulSoup(response.content)
+
+## find elements by class 
+
+results = soup.find_all('div' , class_="-pvs col12")
+print(results)
+
+all_urls = [results.find('div' , class_="-pvs col12").text.strip for result in results]
+        
 '''
