@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-import requests
+from requests import *
 
 
 url = 'https://www.jumia.com.eg/android-phones/'
