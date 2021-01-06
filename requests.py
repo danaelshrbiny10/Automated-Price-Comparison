@@ -5,25 +5,25 @@ from bs4 import BeautifulSoup as bs
 URL = 'https://www.jumia.com.eg/ar/smartphones/?page='
 
 for page in range(1,16):
-    #print(page)
+      #print(page)
 
-    page = 1
-    req = requests.get(URL + str(page))
-    soup = bs(req.text , 'html.parser')
-    # print(soup)
+      page = 1
+      req = requests.get(URL + str(page))
+      soup = bs(req.text , 'html.parser')
+      # print(soup)
 
-    article = soup.find('div' , attrs={'class' , '-paxs row _no-g _4cl-3cm-shs'})
-    products = article.find_all('h4')
+      article = soup.find('div' , attrs={'class' , '-paxs row _no-g _4cl-3cm-shs'})
+      products = article.find_all('h4')
 
-    for product in products:
-      links = product.find_all('a') 
-      title = links[0].text
-      price = ''
-      try:
-        price = links[1].text
-      except :
-        pass
-        print('title : %s /n price : %s ' % (title , price))
+      for product in products:
+        links = product.find_all('a') 
+        title = links[0].text
+        price = ''
+        try:
+          price = links[1].text
+        except :
+          pass
+          print('title : %s /n price : %s ' % (title , price))
 
 headers = {
   'authority': 'www.jumia.com.eg',
