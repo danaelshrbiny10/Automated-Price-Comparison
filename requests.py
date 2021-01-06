@@ -23,7 +23,7 @@ for page in range(1,16):
           price = links[1].text
         except :
           pass
-          print('title : %s /n price : %s ' % (title , price))
+        print('title : %s /n price : %s ' % (title , price))
 
 headers = {
   'authority': 'www.jumia.com.eg',
