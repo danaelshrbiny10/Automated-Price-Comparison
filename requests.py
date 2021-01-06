@@ -11,20 +11,20 @@ for page in range(1,16):
       req = requests.get(URL + str(page))
       soup = bs(req.text , 'html.parser')
       # print(soup)
+
       article = soup.find('div' , attrs={'class' , '-paxs row _no-g _4cl-3cm-shs'})
       products = article.find_all('h4')
 
-       for product in products:
+      for product in products:
         links = product.find_all('a') 
         title = links[0].text
         price = ''
-          try:
-            price = links[1].text
-          except :
-            pass
-           print('title : %s /n price : %s ' % (title , price))
+        try:
+          price = links[1].text
+        except :
+          pass
+          print('title : %s /n price : %s ' % (title , price))
 
-'''
 headers = {
   'authority': 'www.jumia.com.eg',
   'pragma': 'no-cache',
@@ -40,5 +40,3 @@ headers = {
 }
 response = requests.request("GET", url, headers=headers).json()
 print(response)
-
-'''
