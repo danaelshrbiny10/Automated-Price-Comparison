@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 import json
+import csv
 
 headers = {
   'authority': 'www.jumia.com.eg',
@@ -19,11 +20,11 @@ headers = {
 
 def main(url):
     r = requests.get(url, headers=headers).json()
-    x =  data ["viewData"]["products"]
+    full = data ["viewData"]["products"]
     for item in r['data']:
         df = pd.DataFrame.from_dict([item])
-        x.append(df)
-    new = pd.concat(x, ignore_index=True)
+        full.append(df)
+    new = pd.concat(full, ignore_index=True)
     print(new)
     new.to_csv("Data.csv")
 
