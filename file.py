@@ -1,6 +1,7 @@
 import json
 import csv
 
+
 with open("./my_json.json" , encoding='utf-8') as file:
     data = json.load(file)
 

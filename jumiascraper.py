@@ -1,8 +1,29 @@
 # -*- coding: utf-8 -*-
-import requests 
+import requests , file
 from bs4 import BeautifulSoup as bs
-
-
+from requests_html import HTMLSession
+import pandas as pd
+'''
+urls = [
+'https://www.jumia.com.eg/ar/smartphones/?page=1',
+'https://www.jumia.com.eg/ar/smartphones/?page=2',
+'https://www.jumia.com.eg/ar/smartphones/?page=3',
+'https://www.jumia.com.eg/ar/smartphones/?page=4',
+'https://www.jumia.com.eg/ar/smartphones/?page=5',
+'https://www.jumia.com.eg/ar/smartphones/?page=6',
+'https://www.jumia.com.eg/ar/smartphones/?page=7',
+'https://www.jumia.com.eg/ar/smartphones/?page=8',
+'https://www.jumia.com.eg/ar/smartphones/?page=9',
+'https://www.jumia.com.eg/ar/smartphones/?page=10',
+'https://www.jumia.com.eg/ar/smartphones/?page=11',
+'https://www.jumia.com.eg/ar/smartphones/?page=12',
+'https://www.jumia.com.eg/ar/smartphones/?page=13',
+'https://www.jumia.com.eg/ar/smartphones/?page=14',
+'https://www.jumia.com.eg/ar/smartphones/?page=15',
+'https://www.jumia.com.eg/ar/smartphones/?page=15',
+'https://www.jumia.com.eg/ar/smartphones/?page=17',
+]
+'''
 URL = 'https://www.jumia.com.eg/ar/smartphones/?page='
 
 for page in range(1,16):
@@ -14,16 +35,18 @@ for page in range(1,16):
       # print(soup)
       article = soup.find('div' , attrs={'class' , '-paxs row _no-g _4cl-3cm-shs'})
       products = article.find_all('h3')
+      
+    for product in products:
+            links = product.find_all('a') 
+            name = links[0].text
+            price = ''
+            try:
+              price = links[1].text
+            except :
+              pass
+            print('name : %s /n price : %s ' % (name , price))
+          
 
-      for product in products:
-        links = product.find_all('a') 
-        name = links[0].text
-        price = ''
-        try:
-          price = links[1].text
-        except :
-          pass
-        print('name : %s /n price : %s ' % (name , price))
 
 headers = {
   'authority': 'www.jumia.com.eg',
@@ -34,9 +57,43 @@ headers = {
   'sec-fetch-site': 'same-origin',
   'sec-fetch-mode': 'cors',
   'sec-fetch-dest': 'empty',
-  'referer': 'https://www.jumia.com.eg/ar/smartphones/?page=2',
+  'referer': 'https://www.jumia.com.eg/ar/smartphones/?page=',
   'accept-language': 'en-US,en;q=0.9,ar;q=0.8',
   'cookie': '__cfduid=d18c424466b4a03640eeea0b162b221ed1605877389; newsletter=1; sb-closed=true; _gcl_au=1.1.1814548577.1605877391; _ga=GA1.3.1313839063.1605877392; _fbp=fb.2.1605877392227.964332060; _cs_ex=1521463256; _cs_c=1; sponsoredUserId=37252672192985794515fb7be935e30d; userLanguage=ar_EG; __gads=ID=d67cac8530f7555a:T=1606322258:S=ALNI_MZNz6r5jkWjL4tk4cs1rG6ar67p5g; closedBanners=1726%2C1745%2C1744%2C1752%2C1762%2C1764%2C1765%2C1778; _gid=GA1.3.1621353031.1606682274; SOLSESSID=91b4930bee68e9b9cf56f466eb63dcf1; _gcl_aw=GCL.1606688039.Cj0KCQiAqo3-BRDoARIsAE5vnaLPCNfKO8pHM611H4ETnbDHRvirYJ8lj70JSZo5lSXRGtdjT-YTBHQaAl60EALw_wcB; _gac_UA-33473298-1=1.1606688061.Cj0KCQiAqo3-BRDoARIsAE5vnaLPCNfKO8pHM611H4ETnbDHRvirYJ8lj70JSZo5lSXRGtdjT-YTBHQaAl60EALw_wcB; _fbc=fb.2.1606688245832.IwAR2G_wC2Wgt7RsJrxfPn4hFcY2c6yLUc4cOkmGHAL8DvFnJwpVAUH5Bicdk; cto_bundle=XGePf19uWk1jc01lRnVqMERnN0tkY25DNmdFT0FYNGVSTGtuWEVaUHJ3MjNneXdyJTJCMWp6TFFiU0g4Wkx2TTdoYmk2dUFjMFBGMFhnSEt4ZiUyQiUyRm9aWVlpcHlOJTJGWVV5RFFwaGhzOE5neUc1UkhwVlB6ekFwczJobnZ0JTJCS21ZczFOJTJGVFBLUzVpZ3BlQVMwbFY0cyUyRjY4YktKYTBIdyUzRCUzRA; _gat_UA-33473298-1=1; sb-closed=true; SOLSESSID=91b4930bee68e9b9cf56f466eb63dcf1'
 }
 response = requests.request("GET", URL, headers=headers).json()
 print(response)
+
+
+
+
+
+
+'''
+def getPrice(url):
+    s = HTMLSession()
+    r = s.get(url)
+    r.html.render(sleep=1)
+    try:
+        product = {
+            'title': r.html.xpath('//*[@id="productTitle"]', first=True).text,
+            'price': r.html.xpath('//*[@id="priceblock_ourprice"]', first=True).text
+        }
+        print(product)
+    except:
+        product = {
+          'title': r.html.xpath('//*[@id="productTitle"]', first=True).text,
+          'price': 'item unavailable'
+        }
+        print(product)
+    return product
+
+tvprices = []
+for url in urls:
+    tvprices.append(getPrice(url))
+
+print(len(tvprices))
+
+pricesdf = pd.DataFrame(tvprices)
+pricesdf.to_excel('tvprices.xlsx', index=False)
+'''
