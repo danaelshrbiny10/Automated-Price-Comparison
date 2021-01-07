@@ -3,6 +3,7 @@ import requests , file
 from bs4 import BeautifulSoup as bs
 from requests_html import HTMLSession
 import pandas as pd
+
 '''
 urls = [
 'https://www.jumia.com.eg/ar/smartphones/?page=1',
@@ -63,10 +64,6 @@ headers = {
 }
 response = requests.request("GET", URL, headers=headers).json()
 print(response)
-
-
-
-
 
 
 '''
