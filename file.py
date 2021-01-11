@@ -1,6 +1,6 @@
 import json
 import csv
-
+import jumiascraper
 
 with open("./my_json.json" , encoding='utf-8') as file:
     data = json.load(file)
