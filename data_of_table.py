@@ -9,13 +9,13 @@ print ("Opened database successfully")
 cur = conn.cursor()
 
 cur.execute("INSERT INTO JUMIA (ID,SKU,TITLE,MANUFACTURE,DESCRIPTION,ImG,CATEGORY,KEYWORDS,EAN,ACTIVE,LASTPRICE,PRODUCT_ID,SOUQ_ID,RATE) \
-    VALUES (1 ,  ,  ,  , ' ' , ' ' , , ' ' , , , , , , , )");
+    VALUES ()");
 
 cur.execute("INSERT INTO PRODUCT (ID,SKU,TITLE,MANUFACTURE,DESCRIPTION,CATEGORY,KEYWORDS,EAN,LOWPRICE,AVG_RATE) \
-    VALUES (2 ,  , , ,' ' , , ' ' , , , )");
+    VALUES ()");
 
 cur.execute("INSERT INTO PRICE_HISTORY (PRODUCT_ID,DATE,PRICE) \
-    VALUES ( , , '4,240')");
+    VALUES ()");
 
 cur.execute("INSERT INTO CATEGORY (ID,NAME) \
     VALUES (4 , 'Phones & Tablets/Mobile Phones/Smartphones/Android Phones' )");
