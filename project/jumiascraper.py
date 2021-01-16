@@ -14,7 +14,6 @@ headers = {
 }
 response = requests.request("GET", url, headers=headers).json()
 print(response)
-
 # print(response.text)
 
 

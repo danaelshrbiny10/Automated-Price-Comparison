@@ -1,4 +1,4 @@
-from .tasks import jumiascraper
+# from .tasks import jumiascraper
 
 
 
