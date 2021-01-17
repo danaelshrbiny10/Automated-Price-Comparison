@@ -16,23 +16,26 @@ response = requests.request("GET", url, headers=headers).json()
 # print(response)
 # print(response.text)
 
-conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
 
-# print ("Opened database successfully")
-
-cur = conn.cursor()
 
 x = response.get("viewData")
 y = x.get("products")
 c = 0
 for item in y:
-      a = y[c]["name"]
-      
+      # a = y[c]["name"]
+      conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
+      cur = conn.cursor()
       # print(y[c]["prices"])
-      # V = y[c]["name"],y[c]['url']
-      D="insert into category (NAME) values (%S)"
-      b = [(a)]
-      # cur.execute(D, b)
+      V = [y[c]["name"],y[c]['url']]
+     
+      # z = y[c]['url']
+      D="insert into category (NAME , url) values (%s ,%s)"
+      b = [(V[0]) , (V[1])]
+      
+      cur.execute(D, b)
       # print(a)
+      conn.commit()
+      print ("Records created successfully");
+      conn.close()
 
       c +=1
