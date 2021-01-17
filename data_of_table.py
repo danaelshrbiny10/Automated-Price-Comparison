@@ -1,5 +1,5 @@
-import psycopg2
-import json
+import psycopg2 
+
 
 conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
 
@@ -7,19 +7,31 @@ print ("Opened database successfully")
 
 
 cur = conn.cursor()
-
+## data of table JUMIA
 cur.execute("INSERT INTO JUMIA (ID,SKU,TITLE,MANUFACTURE,DESCRIPTION,ImG,CATEGORY,KEYWORDS,EAN,ACTIVE,LASTPRICE,PRODUCT_ID,SOUQ_ID,RATE) \
-    VALUES ()");
+    VALUES ()"); 
 
-cur.execute("INSERT INTO PRODUCT (ID,SKU,TITLE,MANUFACTURE,DESCRIPTION,CATEGORY,KEYWORDS,EAN,LOWPRICE,AVG_RATE) \
-    VALUES ()");
-
+#-------------------------------------------------------------------------------------
+## data of table PRICE_HISTORY
 cur.execute("INSERT INTO PRICE_HISTORY (PRODUCT_ID,DATE,PRICE) \
     VALUES ()");
 
+#-------------------------------------------------------------------------------------
+## data of table CATEGORY
 cur.execute("INSERT INTO CATEGORY (ID,NAME) \
     VALUES (4 , 'Phones & Tablets/Mobile Phones/Smartphones/Android Phones' )");
 
+#-------------------------------------------------------------------------------------
+
+
+
+
+
+# cur.execute("INSERT INTO CATEGORY (ID,NAME) \
+#     VALUES (%s, %s) ", variable request)
+
+# D="insert into category (ID,NAME) values (%s,%S)"
+# cur.execute(D, V)
 
 conn.commit()
 print ("Records created successfully");

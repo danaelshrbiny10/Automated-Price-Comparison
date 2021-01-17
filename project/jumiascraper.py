@@ -1,5 +1,5 @@
-import requests
-
+import requests 
+import psycopg2
 url = "https://www.jumia.com.eg/smartphones/?page=2"
 
 payload={}
@@ -13,16 +13,26 @@ headers = {
   'accept-language': 'en-US,en;q=0.9,ar;q=0.8',
 }
 response = requests.request("GET", url, headers=headers).json()
-print(response)
+# print(response)
 # print(response.text)
 
+conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
+
+# print ("Opened database successfully")
+
+cur = conn.cursor()
 
 x = response.get("viewData")
 y = x.get("products")
 c = 0
 for item in y:
-      print(y[c]["name"])
-      print(y[c]["prices"])
+      a = y[c]["name"]
       
-      
+      # print(y[c]["prices"])
+      # V = y[c]["name"],y[c]['url']
+      D="insert into category (NAME) values (%S)"
+      b = [(a)]
+      # cur.execute(D, b)
+      # print(a)
+
       c +=1
