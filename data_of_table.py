@@ -1,77 +1,68 @@
 import psycopg2 
 
+def open_conn(JUMIA):
+    conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
+    cur = conn.cursor()
+    return(conn,cur)
+    cur.execute("INSERT INTO JUMIA (ID,SKU,TITLE,MANUFACTURE,CATEGORY,KEYWORDS,EAN,ACTIVE,LASTPRICE,PRODUCT_ID,JUMIA_ID,RATE) values (%s ,%s , %s , %s, %s, %s, %s, %s, %s, %s, %s, %s)")
+    conn.commit()
+    conn.close()
 
-conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
+conn,cur = open_conn("TITLE")
+#---------------------------------------------------------------------------------------------------------------------------------------------
+def open_conn(PRICE_HISTORY):
+    conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
+    cur = conn.cursor()
+    return(conn,cur)
+    cur.execute("INSERT INTO PRICE_HISTORY (PRODUCT_ID,DATE,PRICE) values (%s ,%s , %s)")
+    conn.commit()
+    conn.close()
 
-print ("Opened database successfully")
+conn,cur = open_conn("PRICE")
+#---------------------------------------------------------------------------------------------------------------------------------------------
+def open_conn(CATEGORY):
+    conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
+    cur = conn.cursor()
+    return(conn,cur)
+    cur.execute("INSERT INTO  category (NAME , url) values (%s ,%s)" )
+    conn.commit()
+    conn.close()
 
+conn,cur = open_conn("CATEGORY")
 
+#---------------------------------------------------------------------------------------------------------------------------------------------
+
+## to show tables
 cur = conn.cursor()
-## data of table JUMIA
-cur.execute("INSERT INTO JUMIA (ID,SKU,TITLE,MANUFACTURE,DESCRIPTION,ImG,CATEGORY,KEYWORDS,EAN,ACTIVE,LASTPRICE,PRODUCT_ID,SOUQ_ID,RATE) \
-    VALUES ()"); 
-
-#-------------------------------------------------------------------------------------
-## data of table PRICE_HISTORY
-cur.execute("INSERT INTO PRICE_HISTORY (PRODUCT_ID,DATE,PRICE) \
-    VALUES ()");
-
-#-------------------------------------------------------------------------------------
-## data of table CATEGORY
-cur.execute("INSERT INTO CATEGORY (ID,NAME) \
-    VALUES (4 , 'Phones & Tablets/Mobile Phones/Smartphones/Android Phones' )");
-
-#-------------------------------------------------------------------------------------
-
-
-
-
-
-# cur.execute("INSERT INTO CATEGORY (ID,NAME) \
-#     VALUES (%s, %s) ", variable request)
-
-# D="insert into category (ID,NAME) values (%s,%S)"
-# cur.execute(D, V)
-
-conn.commit()
-print ("Records created successfully");
-conn.close()
-
-'''
-cur = conn.cursor()
-cur.execute("SELECT ID,SKU,TITLE,MANUFACTURE,DESCRIPTION,ImG,CATEGORY,KEYWORDS,EAN,ACTIVE,LASTPRICE,PRODUCT_ID,SOUQ_ID,RATE  from JUMIA")
+cur.execute("SELECT *  from JUMIA")
 rows = cur.fetchall()
 for row in rows:
    print ("ID = "), row[0]
    print ("SKU = "), row[1]
    print ("TITLE = "), row[2]
    print ("MANUFACTURE = "), row[3]
-   print ("DESCRIPTION = "), row[4]
-   print ("ImG = "), row[5]
-   print ("CATEGORY = "), row[6]
-   print ("KEYWORDS = "), row[7]
-   print ("EAN = "), row[8]
-   print ("ACTIVE = "), row[9]
-   print ("LASTPRICE = "), row[10]
-   print ("PRODUCT_ID = "), row[11]
-   print ("SOUQ_ID = "), row[12]
-   print ("RATE = "), row[13], "\n"
+   print ("CATEGORY = "), row[4]
+   print ("KEYWORDS = "), row[5]
+   print ("EAN = "), row[6]
+   print ("ACTIVE = "), row[7]
+   print ("LASTPRICE = "), row[8]
+   print ("PRODUCT_ID = "), row[9]
+   print ("JUMIA_ID = "), row[10]
+   print ("RATE = "), row[11], "\n"
 
-   cur.execute("SELECT PRODUCT_ID,DATE,PRICE  from PRICE_HISTORY")
+   cur.execute("SELECT * from PRICE_HISTORY")
 rows = cur.fetchall()
 for row in rows:
    print ("PRODUCT_ID = "), row[0]
    print ("DATE = "), row[1]
    print ("PRICE = "), row[2], "\n"
 
-cur.execute("SELECT ID,NAME from CATEGORY")
+cur.execute("SELECT * from CATEGORY")
 rows = cur.fetchall()
 for row in rows:
-   print ("ID = "), row[0]
-   print ("NAME = "), row[1], "\n"
-
+   print ("NAME = "), row[0]
+   print ("url = "), row[1], "\n"
 
 conn.commit()
 print ("Operation done successfully");
 conn.close()
-'''

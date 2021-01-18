@@ -22,23 +22,18 @@ while a:
       ## obtains products from json 
       x = response.get("viewData")
       y = x.get("products")
-      c = 0                                                                                  ## counter for loop
+      c = 0
       if y == None :
         break
       else:
             for item in y:
-                    # a = y[c]["name"]                                                                               ## get name of each product
                     conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
                     cur = conn.cursor()                                                                               ## to connect with DB
-                    # print(y[c]["prices"])                                                                           ##  get price of each product
                     V = [y[c]["name"],y[c]['url']]                                                                    ## get name  & url of each product
-                    # z = y[c]['url']
                     D="insert into category (NAME , url) values (%s ,%s)"                                             ## put data into category
                     b = [(V[0]) , (V[1])]                                                                             ## obtains name & url in 2 col
                     cur.execute(D, b)
-                    # print(a)
                     conn.commit()
-                    # print ("Records created successfully");
                     conn.close()
             c +=1
       page +=1
