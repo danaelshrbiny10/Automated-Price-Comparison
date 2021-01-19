@@ -50,7 +50,7 @@ for row in rows:
    print ("JUMIA_ID = "), row[10]
    print ("RATE = "), row[11], "\n"
 
-   cur.execute("SELECT * from PRICE_HISTORY")
+cur.execute("SELECT * from PRICE_HISTORY")
 rows = cur.fetchall()
 for row in rows:
    print ("PRODUCT_ID = "), row[0]
