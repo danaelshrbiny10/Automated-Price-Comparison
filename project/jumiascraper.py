@@ -1,4 +1,4 @@
-import requests , psycopg2 , csv
+import requests , psycopg2 , csv , json
 
 url = "https://www.jumia.com.eg/smartphones/?page="
 # page = ["url"]
@@ -35,7 +35,7 @@ while a:
                     cur.execute(category, b)                                                                          ## execute category & index
                     #----------------------------------------------------------------------------------------------------------------------
                     j = [y[c]['sku'],y[c]['name'],y[c]['categories'],y[c]['prices'],y[c]['rating']]
-                    jumiaa = "INSERT INTO JUMIA (SKU,NAME,CATEGORIES,PRICES,RATING) values (%s ,%s , %s , %s, %s)"
+                    jumiaa = "INSERT INTO JUMIA (SKU,NAME,CATEGORIES,PRICES,rating) values (%s ,%s , %s , %s, %s)"
                     n = [(j[0]) , (j[1]), (j[2]), (j[3]), (j[4])]
                     cur.execute(jumiaa, n)
                     #-----------------------------------------------------------------------------------------------------------------------

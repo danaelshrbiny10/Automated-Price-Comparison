@@ -31,7 +31,7 @@ cur.execute('''CREATE TABLE JUMIA
       NAME VARCHAR(300),
       CATEGORIES INT     NOT NULL,
       PRICES VARCHAR(50),
-      RATING INT     NOT NULL)''');
+      rating INT     NOT NULL)''');
 
 cur.execute('''CREATE TABLE NOON
       (ID INT PRIMARY KEY     NOT NULL,
