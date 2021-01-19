@@ -1,4 +1,4 @@
-import requests
+import requests , psycopg2
 
 url = "https://www.jumia.com.eg/redmi-note-7-6.3-inch-64gb-dual-sim-4g-mobile-phone-neptune-blue-xiaomi-mpg166709.html"
 
@@ -19,9 +19,15 @@ headers = {
 
 response = requests.request("GET", url, headers=headers, data=payload)
 
-print(response.text)
+#print(response.text)
 
-# def data():
-#     pass
 
-# data()
+# def open_conn(JUMIA):
+#     conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
+#     cur = conn.cursor()
+#     return(conn,cur)
+#     cur.execute("INSERT INTO JUMIA (ID,SKU,TITLE,MANUFACTURE,CATEGORY,KEYWORDS,EAN,ACTIVE,LASTPRICE,PRODUCT_ID,JUMIA_ID,RATE) values (%s ,%s , %s , %s, %s, %s, %s, %s, %s, %s, %s, %s)")
+#     conn.commit()
+#     conn.close()
+
+# conn,cur = open_conn("TITLE")

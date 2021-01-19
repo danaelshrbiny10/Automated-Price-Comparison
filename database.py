@@ -5,8 +5,9 @@ conn = psycopg2.connect(database="automated_price_comparison", user = "postgres"
 print ("Opened database successfully")
 
 
-
 cur = conn.cursor()
+
+
 
 cur.execute('''CREATE TABLE SOUQ
       (ID INT PRIMARY KEY     NOT NULL,
@@ -26,18 +27,11 @@ cur.execute('''CREATE TABLE SOUQ
 
 
 cur.execute('''CREATE TABLE JUMIA
-      (ID INT PRIMARY KEY     NOT NULL,
-      SKU VARCHAR(50),
-      TITLE VARCHAR(300),
-      MANUFACTURE VARCHAR(50),
-      CATEGORY INT     NOT NULL,
-      KEYWORDS TEXT    NOT NULL,
-      EAN VARCHAR(50),
-      ACTIVE BOOLEAN,
-      LASTPRICE VARCHAR(50),
-      PRODUCT_ID VARCHAR(50),
-      JUMIA_ID INT     NOT NULL,
-      RATE INT     NOT NULL)''');
+      (SKU VARCHAR(50),
+      NAME VARCHAR(300),
+      CATEGORIES INT     NOT NULL,
+      PRICES VARCHAR(50),
+      RATING INT     NOT NULL)''');
 
 cur.execute('''CREATE TABLE NOON
       (ID INT PRIMARY KEY     NOT NULL,
@@ -69,9 +63,7 @@ cur.execute('''CREATE TABLE PRODUCT
 
 
 cur.execute('''CREATE TABLE PRICE_HISTORY
-      (PRODUCT_ID INT PRIMARY KEY     NOT NULL,
-      DATE DATE,
-      PRICE VARCHAR(50))''');
+      (PRICES VARCHAR(50))''');
 
 cur.execute('''CREATE TABLE CATEGORY
       (NAME VARCHAR(300),
