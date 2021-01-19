@@ -34,12 +34,12 @@ while a:
                     b = [(V[0]) , (V[1])]                                                                             ## obtains name & url in 2 col with index from V
                     cur.execute(category, b)                                                                          ## execute category & index
                     #----------------------------------------------------------------------------------------------------------------------
-                    j = [y[c]['sku'],y[c]['name'],y[c]['categories'],y[c]['prices'],y[c]['rating']]
+                    j = [y[c]['sku'],y[c]['name'],y[c]['categories'],y[c]['prices']['price'],y[c]['rating']['totalRatings']]
                     jumiaa = "INSERT INTO JUMIA (SKU,NAME,CATEGORIES,PRICES,rating) values (%s ,%s , %s , %s, %s)"
                     n = [(j[0]) , (j[1]), (j[2]), (j[3]), (j[4])]
                     cur.execute(jumiaa, n)
                     #-----------------------------------------------------------------------------------------------------------------------
-                    p = [y[c]['prices']]
+                    p = [y[c]['prices']['price']]
                     price = "INSERT INTO PRICE_HISTORY (PRICES) values (%s)"
                     q = [(p[0])]
                     cur.execute(price, q)
