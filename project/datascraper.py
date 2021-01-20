@@ -23,35 +23,72 @@ response = requests.request("GET", url, headers=headers, data=payload).json()
 
 
 
-def open_conn(n1 , n2 , n3 ,n4 ,n5):
-    conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
-    cur = conn.cursor()
-    return(conn,cur)
-    cur.execute("INSERT INTO JUMIA (SKU,NAME,CATEGORIES,PRICES,rating) values (%s ,%s , %s , %s, %s)")
-    conn.commit()
-    conn.close()
+# def open_conn(n1 , n2 , n3 ,n4 ,n5):
+#     conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
+#     cur = conn.cursor()
+#     return(conn,cur)
+#     cur.execute("INSERT INTO JUMIA (SKU,NAME,CATEGORIES,PRICES,rating) values (%s ,%s , %s , %s, %s)")
+#     conn.commit()
+#     conn.close()
 
-conn,cur = open_conn("SKU","NAME" , "CATEGORIES","PRICES","rating")
+# conn,cur = open_conn("SKU","NAME" , "CATEGORIES","PRICES","rating")
+
+class jumia:
+    def __init__(self, SKU, NAME, CATEGORIES, PRICES, rating):
+        conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
+        cur = conn.cursor()
+        self.SKU = SKU
+        self.NAME = NAME
+        self.CATEGORIES = CATEGORIES
+        self.PRICES = PRICES
+        self.rating = rating
+        cur.execute("INSERT INTO JUMIA (SKU,NAME,CATEGORIES,PRICES,rating) values (%s ,%s , %s , %s, %s)" )
+        conn.commit()
+        conn.close()
+# #---------------------------------------------------------------------------------------------------------------------------------------------
+# def open_conn(n):
+#     conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
+#     cur = conn.cursor()
+#     return(conn,cur)
+#     cur.execute("INSERT INTO PRICE_HISTORY (PRICES) values (%s)")
+#     conn.commit()
+#     conn.close()
+
+# conn,cur = open_conn("PRICES")
+
+class price_history:
+    def __init__(self, PRICES):
+        conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
+        cur = conn.cursor()
+        self.PRICES = PRICES
+        cur.execute("INSERT INTO PRICE_HISTORY (PRICES) values (%s)" )
+        conn.commit()
+        conn.close()
 #---------------------------------------------------------------------------------------------------------------------------------------------
-def open_conn(n):
-    conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
-    cur = conn.cursor()
-    return(conn,cur)
-    cur.execute("INSERT INTO PRICE_HISTORY (PRICES) values (%s)")
-    conn.commit()
-    conn.close()
+# def open_conn(x1 , x2):
+#     conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
+#     cur = conn.cursor()
+#     return(conn,cur)
+#     cur.execute("INSERT INTO  category (NAME , url) values (%s ,%s)" )
+#     conn.commit()
+#     conn.close()
 
-conn,cur = open_conn("PRICES")
-#---------------------------------------------------------------------------------------------------------------------------------------------
-def open_conn(x1 , x2):
-    conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
-    cur = conn.cursor()
-    return(conn,cur)
-    cur.execute("INSERT INTO  category (NAME , url) values (%s ,%s)" )
-    conn.commit()
-    conn.close()
+# conn,cur = open_conn("NAME" , "url")
 
-conn,cur = open_conn("NAME" , "url")
+class category:
+    def __init__(self, NAME, url):
+        conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
+        cur = conn.cursor()
+        self.NAME = NAME
+        self.url = url
+        cur.execute("INSERT INTO  category (NAME , url) values (%s ,%s)" )
+        conn.commit()
+        conn.close()
+# p1 = category("John", 36)
+
+# print(p1.NAME)
+# print(p1.url)
+
 #---------------------------------------------------------------------------------------------------------------------------------------------
 
 ## to show tables
