@@ -28,21 +28,15 @@ while a:
       else:
             for item in y:
                     conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
-                    cur = conn.cursor()                                                                               ## to connect with DB
-                    V = [y[c]["name"],y[c]['url']]                                                                    ## get name  & url of each product
-                    category = "INSERT INTO category (NAME , url) values (%s ,%s)"                                    ## put data into category
-                    b = [(V[0]) , (V[1])]                                                                             ## obtains name & url in 2 col with index from V
-                    cur.execute(category, b)                                                                          ## execute category & index
+                    cur = conn.cursor()                                                                              
+                    # V =[item["name"],item['url']]                                                            
+                    # cur.execute("INSERT INTO category (NAME , url) values (%s ,%s)",(V))
                     #----------------------------------------------------------------------------------------------------------------------
-                    j = [y[c]['sku'],y[c]['name'],y[c]['categories'],y[c]['prices']['price'],y[c]['rating']['totalRatings']]
-                    jumiaa = "INSERT INTO JUMIA (SKU,NAME,CATEGORIES,PRICES,rating) values (%s ,%s , %s , %s, %s)"
-                    n = [(j[0]) , (j[1]), (j[2]), (j[3]), (j[4])]
-                    cur.execute(jumiaa, n)
+                    j=[item['sku'],item['name'],item['categories'],item['prices']['price'],item['rating']["average"]]
+                    cur.execute("INSERT INTO JUMIA(SKU,NAME,CATEGORIES,PRICES,RATING) VALUES(%s,%s,%s,%s,%s)",(j))
                     #-----------------------------------------------------------------------------------------------------------------------
-                    p = [y[c]['prices']['price']]
-                    price = "INSERT INTO PRICE_HISTORY (PRICES) values (%s)"
-                    q = [(p[0])]
-                    cur.execute(price, q)
+                    b=[item['prices']['price']]
+                    cur.execute("INSERT INTO PRICE_HISTORY (PRICES) values (%s)",(b))
                     conn.commit()
                     conn.close()
             c +=1
