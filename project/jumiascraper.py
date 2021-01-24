@@ -26,19 +26,19 @@ while a:
       if y == None :
         break
       else:
-            for item in y:
-                    conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
-                    cur = conn.cursor()                                                                              
-                    # V =[item["name"],item['url']]                                                            
-                    # cur.execute("INSERT INTO category (NAME , url) values (%s ,%s)",(V))
-                    #----------------------------------------------------------------------------------------------------------------------
-                    j=[item['sku'],item['name'],item['categories'],item['prices']['price'],item['rating']["average"]]
-                    cur.execute("INSERT INTO JUMIA(SKU,NAME,CATEGORIES,PRICES,RATING) VALUES(%s,%s,%s,%s,%s)",(j))
-                    #-----------------------------------------------------------------------------------------------------------------------
-                    b=[item['prices']['price']]
-                    cur.execute("INSERT INTO PRICE_HISTORY (PRICES) values (%s)",(b))
-                    conn.commit()
-                    conn.close()
-            c +=1
+          # for item in y:
+          #         conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
+          #         cur = conn.cursor()                                                                              
+          #         # V =[item["name"],item['url']]                                                            
+          #         # cur.execute("INSERT INTO category (NAME , url) values (%s ,%s)",(V))
+          #         #----------------------------------------------------------------------------------------------------------------------
+          #         # j=[item['sku'],item['name'],item['categories'],item['prices']['price'],item['rating']["average"]]
+          #         # cur.execute("INSERT INTO JUMIA(SKU,NAME,CATEGORIES,PRICES,RATING) VALUES(%s,%s,%s,%s,%s)",(j))
+          #         #-----------------------------------------------------------------------------------------------------------------------
+          #         # b=[item['prices']['price']]
+          #         # cur.execute("INSERT INTO PRICE_HISTORY (PRICES) values (%s)",(b))
+          #         conn.commit()
+          #         conn.close()
+          # c +=1
       page +=1
       
