@@ -61,6 +61,7 @@ class category:
             cur.execute("INSERT INTO category (NAME , url) values (%s ,%s)",(V))
             conn.commit()
             conn.close()
+            return(conn,cur) 
         c+=1
 payload='{}'
 z = json.loads(payload)
