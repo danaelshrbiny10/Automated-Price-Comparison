@@ -38,10 +38,10 @@ class jumia:
             conn.close()
             return(conn,cur) 
         c +=1    
-    # class price_history(jumia):           
-    #     def __init__(self, SKU, NAME, CATEGORIES, PRICES, rating):
-    #         jumia.__init__(self, PRICES)
-    #         print(self.PRICES)
+class price_history(jumia):           
+    def __init__(self, SKU, NAME, CATEGORIES, PRICES, rating):
+        jumia.__init__(self, PRICES)
+        print(self.PRICES)
 payload='{}'
 p = json.loads(payload)
 print(p[y]["sku"])
