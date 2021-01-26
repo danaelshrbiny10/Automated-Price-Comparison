@@ -51,33 +51,6 @@ def jumia(self,sku,NAME,CATEGORIES,PRICES,rating):
 
 z = jumia([y]["sku"] ,[y]["NAME"],[y]["CATEGORIES"],['prices']['price'],['rating']["average"])
 
-# # {
-# #   "x": 5,
-# #   "y": 4,
-# #   "function": "lambda x, y : x * y"
-# # }
-
-# import json , psycopg2 , text
-
-
-# def jumia():
-#     with open("my_json.json") as f:
-#         data = json.load(f)
-
-#   sku = data(["products"]["sku"])
-#   NAME = data(["products"]["name"])
-#   CATEGORIES = data(["products"]["categories"])
-#   PRICES =data (["prices"]["price"])
-#   RATING = data (['rating']["average"])
-#   return (sku,NAME,CATEGORIES,PRICES,rating)
-
-
-# if __name__ == "__main__":
-#   result = run()
-#   print(result)
-
-
-
 
 
 
