@@ -49,7 +49,7 @@ def jumia(self,sku,NAME,CATEGORIES,PRICES,rating):
           conn.close()
       c +=1
 
-z = jumia([y]["sku"] ,[y]["NAME"],[y]["CATEGORIES"],['prices']['price'],['rating']["average"])
+z = jumia()
 
 
 
