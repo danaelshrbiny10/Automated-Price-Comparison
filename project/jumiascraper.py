@@ -1,7 +1,7 @@
 import requests , psycopg2 , csv , json
 
 url = "https://www.jumia.com.eg/smartphones/?page="
-# page = ["url"]
+
 page = 1
 a = True
 while a:
@@ -16,10 +16,6 @@ while a:
         'accept-language': 'en-US,en;q=0.9,ar;q=0.8',
       }
       response = requests.request("GET", url+str(page), headers=headers).json()
-      # print(response)
-      # print(response.text)
-
-      ## obtains products from json 
       x = response.get("viewData")
       y = x.get("products")
       c = 0
