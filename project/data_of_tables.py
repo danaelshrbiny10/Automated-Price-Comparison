@@ -2,6 +2,12 @@ import requests , psycopg2 , csv , json
 
 url = "https://www.jumia.com.eg/smartphones/?page="
 
+
+def category(w):
+      conn,cur=connn()     
+      cur.execute("INSERT INTO category(Name) VALUES (%s)",(w))
+      conn.commit()  
+
 page = 1
 a = True
 while a:
@@ -26,17 +32,17 @@ while a:
                   conn = psycopg2.connect(database="automated_price_comparison", user = "postgres", password = "dana20499", host = "127.0.0.1", port = "5432")
                   cur = conn.cursor()
                   return(conn , cur) 
-            # def jumia(j):
-            #       conn,cur = connn() 
-            #       c=0
-            #       print(j)
-            #       for item in y:
-            #             J = [item['sku'],item['name'],item['categories'],item['prices']['price'],item['rating']["average"]]
-            #             cur.execute("INSERT INTO JUMIA(SKU,NAME,CATEGORIES,PRICES,RATING) VALUES(%s,%s,%s,%s,%s)",(J)) 
-            #             conn.commit()
-            #             c +=1
-            #       conn.close()
-            # jumia(y)       
+            def jumia(j):
+                  conn,cur = connn() 
+                  c=0
+                  print(j)
+                  for item in y:
+                        J = [item['sku'],item['name'],item['categories'],item['prices']['price'],item['rating']["average"]]
+                        cur.execute("INSERT INTO JUMIA(SKU,NAME,CATEGORIES,PRICES,RATING) VALUES(%s,%s,%s,%s,%s)",(J)) 
+                        conn.commit()
+                        c +=1
+                  conn.close()
+            jumia(y)       
             def price_history(b):
                   conn , cur = connn()
                   c = 0
@@ -48,7 +54,26 @@ while a:
                         c +=1
                   conn.close()
             price_history(y)
-                  
+            
+            def main_category(f):
+                  conn , cur = connn()
+                  c = 0
+                  print(f)
+                  list = [['laptops'],['mobile-phones'],['mobile-accessories'],['electronic-television-video'],['cameras'],['home-audio-electronics'],['electronics-headphone'],['computer-data-storage'],['computing-accessories'],['computer-components'],['computer-accessories'],['networking'],['pc-gaming'],['laystation-games'],['digital-games'],['xbox-games']]
+                  for items in list:
+                        print(items)
+                        cur.execute("INSERT INTO MAIN_CATEGORY (categories) values (%s)",(items))
+                        conn.commit()
+                  conn.close()
+            main_category(y)
+                        for item in y:
+                              f = [item["categories"]]   
+                              cur.execute("INSERT INTO SUB_CATEGORY (categories) values (%s)",(f))
+                              conn.commit()
+                              c +=1
+                  conn.close()
+            sub_category(y)
+
             def category(v):
                   conn , cur = connn()
                   c = 0
@@ -59,6 +84,16 @@ while a:
                         conn.commit()
                         c +=1
                   conn.close()
-            category(y)       
+            category(y)        
       page +=1      
-
+def main_category(f):
+            conn , cur = connn()
+            c = 0
+            print(f)
+            list = [['laptops'],['mobile-phones'],['mobile-accessories'],['electronic-television-video'],['cameras'],['home-audio-electronics'],['electronics-headphone'],['computer-data-storage'],['computing-accessories'],['computer-components'],['computer-accessories'],['networking'],['pc-gaming'],['laystation-games'],['digital-games'],['xbox-games']]
+            for items in list:
+                  print(items)
+                  cur.execute("INSERT INTO MAIN_CATEGORY (categories) values (%s)",(items))
+                  conn.commit()
+            conn.close()
+main_category(y)
