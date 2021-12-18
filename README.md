@@ -84,7 +84,7 @@ The shell will prompt you for Server, Database, Port, and Username details. You 
 
 You should provide the password that you used during the PostgreSQL installation. You will see a similar result in your PSQL shell like the one the above image if correctly implemented.
 
-psql_shell
+> psql_shell
 
 #### forth: Creating a virtual environment & installing necessary Python packages
 
