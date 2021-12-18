@@ -117,5 +117,6 @@ Change the above code snippet to this:
 
 
 ## Also need to install
-    - celery
-    - requests 
+
+    - celery 5.2.1
+    - requests 2.26.0
