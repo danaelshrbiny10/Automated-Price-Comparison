@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+{% load my_tags %}
+{% load static %}
+{% load bootstrap4 %}
+{% load mathfilters %}
+{% block body %}
+
+<div class="super_container">
+	<!-- Home -->
+	{% if cate  %}
+		<div class="home">
+			<div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/shop_background.jpg"></div>
+			<div class="home_overlay"></div>
+			<div class="home_content d-flex flex-column align-items-center justify-content-center">
+				<h2 class="home_title">{{cate}}</h2>
+			</div>
+		</div>
+	{% else %}
+		<div class="home">
+			<div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/shop_background.jpg"></div>
+			<div class="home_overlay"></div>
+			<div class="home_content d-flex flex-column align-items-center justify-content-center">
+				<h2 class="home_title">Products</h2>
+			</div>
+		</div>
+	{% endif %}
+	<!-- Shop -->
+	<div class="shop">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<form  > 
+						{% bootstrap_form filter.form %}
+						{% buttons %}
+							<div style="display: flex; justify-content: center; align-items: center;">
+								<button type="submit" class="btn btn-primary" style="width: 50%;">Search</button>
+							</div>
+						{% endbuttons %}
+					</form>
+				</div>
+				<div class="col-lg-9">
+					<!-- Shop Content -->
+					<div class="shop_content">
+						<div class="shop_bar clearfix">
+							<div class="shop_product_count"><span>{{counts}}</span> products found</div>
+						</div>
+						<div class="container">
+							<div class="row mb-8">
+								<div class="col-xl-9 col-wd-9gdot5">
+									<!-- Tab Content -->
+									<div class="tab-content" id="pills-tabContent">
+										<div class="tab-pane fade pt-2 show active" id="pills-three-example1" role="tabpanel" aria-labelledby="pills-three-example1-tab" data-target-group="groups">
+											{% for product in object_list %}	
+												<ul class="d-block list-unstyled products-group prodcut-list-view">
+													<li class="product-item remove-divider">
+														<div class="product-item__outer w-100">
+															<div class="product-item__inner remove-prodcut-hover py-4 row">
+																<div class="product-item__header col-6 col-md-4">
+																	<div class="mb-2">
+																		<a href="/product/{{product.id}}" class="d-block text-center"><img class="img-fluid" src={{product.img}} alt="Image Description"></a>
+																	</div>
+																</div>
+																<div class="product-item__body col-6 col-md-5">
+																	<div class="pr-lg-12">
+																		<div class="mb-2 "><a href="/product/{{product.id}}"  class="font-size-12 text-gray-5">{{product.category.sweetName}}</a></div>
+																		<h5 class="mb-2 product-item__title"><a href="/product/{{product.id}}"  class="text-blue font-weight-bold">{{product.title|truncatewords:15}}</a></h5>
+																		<div class="prodcut-price mb-2 d-md-none">
+																			<div class="text-gray-100  mb-12">{{product.lastprice}}</div>
+																		</div>
+																		<div class="mb-3 d-none d-md-block">
+																			<div class="container">
+																				<div class="rating-wrap">
+																					<div  data-score="{{product.rate|floatformat:1}}" class="lol"></div>
+
+																					<h4 id="rating-value"></h4>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="product-item__footer col-md-3 d-md-block">
+																			<div class="mb-3">
+																				<div class="prodcut-price mb-2">
+																					<div class="text-gray-100" style="background-color: bisque; width: 80px;text-align: center; height: 15px; border: -3px; color: rgb(255, 0, 0);"><h5>{{product.lastprice}}EGP</h5></div>
+																				</div>
+																			</div>
+																		</div>
+																		<!-- <ul class="font-size-12 p-0 text-gray-110 mb-4 d-none d-md-block">
+																			<li class="line-clamp-5 mb-1 list-bullet">{{product.description|safe|truncatewords:15}}</li>
+																		</ul> -->
+																	</div>
+																</div>
+																
+															</div>
+														</div>
+													</li>
+												</ul>
+											{% endfor %}	
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Shop Page Navigation -->
+						<div class="pagination" style="display: flex; justify-content: center; align-items: center;">
+							<span>
+								{% if page_obj.has_previous %}
+									<a href="?{% param_replace request page=1 %}">&laquo; first</a>
+									<a href="?{% param_replace request page=page_obj.previous_page_number %}">previous</a>
+								{% endif %}
+				
+								<span class="current">
+									Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+								</span>
+				
+								{% if page_obj.has_next %}
+									<a href="?{% param_replace request page=page_obj.next_page_number %}">next</a>
+									<a href="?{% param_replace request page=page_obj.paginator.num_pages %}">last &raquo;</a>
+								{% endif %}
+							</span>
+						</div> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock body %}
+

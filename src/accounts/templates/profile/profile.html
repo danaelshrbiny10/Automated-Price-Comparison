@@ -1,0 +1,15 @@
+{% extends 'base.html' %} {% load static %} {% block body %} {% load notifications_tags %}
+
+
+<div class="row">
+    <div class="col-md-6 mt-5  mb-5 mx-auto">
+        <h6>{{profile.user.username}}</h6> <h6>{{profile.phone_number}}</h6><h6>{{profile.address}}</h6>
+        <br> <br>
+        <h5><a href="{% url 'accounts:profile_edit' %}">Edit Profile</a> </h5>
+
+</div>
+</div>
+
+
+        {% endblock body %}
+

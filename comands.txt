@@ -1,0 +1,14 @@
+flower -A project --port=5555
+
+celery -A project beat -l INFO --scheduler django_celery_beat.schedulers:DatabaseScheduler
+
+
+celery -A project worker -l info --pool=solo
+
+
+celery -A project purge
+
+
+
+
+celery -A project worker --loglevel=info

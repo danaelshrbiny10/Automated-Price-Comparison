@@ -1,0 +1,20 @@
+{% extends 'base.html' %} 
+{% load static %} 
+{% load bootstrap4 %} 
+{% block body %}
+
+<div class="row">
+    <div class="col-md-6 mt-5  mb-5 mx-auto">
+        <h3>Edit profile</h3>
+
+        <form action="" method="Post" enctype="multipart/form-data">
+            {% csrf_token %} {% bootstrap_form user_form %} {% bootstrap_form profile_form %} {% buttons %}
+            <!-- <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Edit Profile </a> -->
+            <button type="button" class="btn btn-primary btn-lg btn-block">Edit Profile</button> {% endbuttons %}
+
+
+
+        </form> 
+    </div>
+</div>
+{% endblock body %}

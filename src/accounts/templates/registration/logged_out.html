@@ -1,0 +1,10 @@
+{% extends 'base.html' %} {% load static %} {% load bootstrap4 %} {% block body %}
+
+
+<div class="row">
+    <div class="col-md-6 mt-5 mb-5 mx-auto">
+        <p class="text-dark">Logged out!</p>
+        <a href="{% url 'login'%}">Click here to login again.</a>
+    </div>
+</div>
+{% endblock body %}

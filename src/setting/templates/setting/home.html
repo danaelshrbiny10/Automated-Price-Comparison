@@ -1,0 +1,309 @@
+{% extends 'base.html' %} {% load my_tags %} {% load static %} {% load bootstrap4 %} {% load mathfilters %} {% block body %}
+
+
+<!-- Banner -->
+
+
+<!-- Deals of the week -->
+
+<div class="deals_featured">
+    <div class="container">
+        <div class="row">
+            <div class="col d-flex flex-lg-row flex-column align-items-center justify-content-start">
+
+                <!-- Deals -->
+
+                <div class="deals">
+                    <div class="deals_title">Deals of the Week</div>
+                    <div class="deals_slider_container">
+
+                        <!-- Deals Slider -->
+                        <div class="owl-carousel owl-theme deals_slider">
+
+                            <!-- Deals Item -->
+                            {% for product in deals %}
+
+                            <div class="owl-item deals_item">
+                                <div class="deals_image"><img style="width: 200px; height: auto;" src="{{product.img}}" alt=""></div>
+                                <div class="deals_content">
+                                    <div class="deals_info_line d-flex flex-row justify-content-start">
+                                        <div class="deals_item_category"><a href="#">{{product.category.sweetName}}</a></div>
+                                    </div>
+                                    <div class="deals_info_line d-flex flex-row justify-content-start">
+                                        <div class="deals_item_name">{{product.title}}</div>
+                                    </div>
+                                    <div class="deals_item_price ml-auto">{{product.lastprice}}EGP</div>
+                                        <div class="center">
+                                                <span id='rating_Val'>{{product.rate|floatformat:1}}</span>
+                                                <div class='rating{{forloop.counter0}}' style="display:inline;">
+                                                    <div class="stars-outer">
+                                                        <div class="stars-inner"></div>
+                                                    </div>
+                                                </div>
+                                    </div>
+                                    <div class="deals_timer d-flex flex-row align-items-center justify-content-start">
+                                        <div class="deals_timer_title_container">
+                                            <div class="deals_timer_title">Hurry Up</div>
+                                            <div class="deals_timer_subtitle">Offer ends in:</div>
+                                        </div>
+                                        <div class="deals_timer_content ml-auto">
+                                            <div class="deals_timer_box clearfix" data-target-time="">
+                                                <div class="deals_timer_unit">
+                                                    <div id="deals_timer1_hr" class="deals_timer_hr"></div>
+                                                    <span>hours</span>
+                                                </div>
+                                                <div class="deals_timer_unit">
+                                                    <div id="deals_timer1_min" class="deals_timer_min"></div>
+                                                    <span>mins</span>
+                                                </div>
+                                                <div class="deals_timer_unit">
+                                                    <div id="deals_timer1_sec" class="deals_timer_sec"></div>
+                                                    <span>secs</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {% endfor %}
+
+
+
+
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="deals_slider_nav_container">
+                        <div class="deals_slider_prev deals_slider_nav"><i class="fas fa-chevron-left ml-auto"></i></div>
+                        <div class="deals_slider_next deals_slider_nav"><i class="fas fa-chevron-right ml-auto"></i></div>
+                    </div>
+                </div>
+
+                <!-- Featured -->
+                <div class="featured">
+                    <div class="tabbed_container">
+                        <div class="tabs">
+                            <ul class="clearfix">
+                                <li class="active">Featured</li>
+                            </ul>
+                            <div class="tabs_line"><span></span></div>
+                        </div>
+
+                        <!-- Product Panel -->
+                        <div class="product_panel panel active">
+                            <div class="featured_slider slider">
+
+                                {% for product in featured %}
+                                <div class="featured_slider_item">
+                                    <div class="border_active"></div>
+                                    <div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
+                                        <div class="product_image d-flex flex-column align-items-center justify-content-center" ><img class="img-fluid" style="width: 100px; height: auto;" src="{{product.img}}"></div>
+                                        <a href="/product/{{product.id}}"> </a>
+                                        <div class="product_content">
+                                            <div class="product_price discount ">{{product.lastprice}}EGP</span>
+                                            </div>
+                                            
+                                            <div class="product_name">
+                                                <div><a href="/product/{{product.id}}">{{product.title|truncatechars:15}}</a></div>
+                                            </div>
+                                            <div class="product_extras mb-4">
+                                                <div class="center">
+                                                <span id='rating_Val'>{{product.rate|floatformat:1}}</span>
+                                                <div  data-score="{{product.rate|floatformat:1}}" style="display: flex;justify-content: center;" class="lol"></div>
+
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                        <ul class="product_marks">
+                                            <li class="product_mark product_discount">-25%</li>
+                                            <li class="product_mark product_new">new</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            <div class="featured_slider_dots_cover"></div>
+                        </div>
+
+                        <!-- Product Panel -->
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Popular Categories -->
+
+<div class="popular_categories">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="popular_categories_content">
+                    <div class="popular_categories_title">Popular Categories</div>
+                    <div class="popular_categories_slider_nav">
+                        <div class="popular_categories_prev popular_categories_nav"><i class="fas fa-angle-left ml-auto"></i></div>
+                        <div class="popular_categories_next popular_categories_nav"><i class="fas fa-angle-right ml-auto"></i></div>
+                    </div>
+                    <div class="popular_categories_link"><a href="#">full catalog</a></div>
+                </div>
+            </div>
+
+            <!-- Popular Categories Slider -->
+
+            <div class="col-lg-9">
+                <div class="popular_categories_slider_container">
+                    <div class="owl-carousel owl-theme popular_categories_slider">
+
+                        <!-- Popular Categories Item -->
+                        <div class="owl-item">
+                            <div class="popular_category d-flex flex-column align-items-center justify-content-center">
+                                <div class="popular_category_image"><img src="{% static 'images/popular_1.png' %}" alt=""></div>
+                                <div class="popular_category_text">Smartphones & Tablets</div>
+                            </div>
+                        </div>
+
+                        <!-- Popular Categories Item -->
+                        <div class="owl-item">
+                            <div class="popular_category d-flex flex-column align-items-center justify-content-center">
+                                <div class="popular_category_image"><img src="{% static 'images/popular_2.png' %}" alt=""></div>
+                                <div class="popular_category_text">Computers & Laptops</div>
+                            </div>
+                        </div>
+
+                        <!-- Popular Categories Item -->
+                        <div class="owl-item">
+                            <div class="popular_category d-flex flex-column align-items-center justify-content-center">
+                                <div class="popular_category_image"><img src="{% static 'images/popular_3.png' %}" alt=""></div>
+                                <div class="popular_category_text">Gadgets</div>
+                            </div>
+                        </div>
+
+                        <!-- Popular Categories Item -->
+                        <div class="owl-item">
+                            <div class="popular_category d-flex flex-column align-items-center justify-content-center">
+                                <div class="popular_category_image"><img src="{% static 'images/popular_4.png' %}" alt=""></div>
+                                <div class="popular_category_text">Video Games & Consoles</div>
+                            </div>
+                        </div>
+
+                        <!-- Popular Categories Item -->
+                        <div class="owl-item">
+                            <div class="popular_category d-flex flex-column align-items-center justify-content-center">
+                                <div class="popular_category_image"><img src="{% static 'images/popular_5.png' %}" alt=""></div>
+                                <div class="popular_category_text">Accessories</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Banner -->
+
+
+<!-- Hot New Arrivals -->
+
+
+<!-- Best Sellers -->
+
+<div class="best_sellers">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="tabbed_container">
+                    <div class="tabs clearfix tabs-right">
+                        <div class="new_arrivals_title">Hot Best Sellers</div>
+                        <ul class="clearfix">
+                            <li class="active">New Product</li>
+                        </ul>
+                        <div class="tabs_line"><span></span></div>
+                    </div>
+
+                    <div class="bestsellers_panel panel active">
+
+                        <!-- Best Sellers Slider -->
+
+                        <div class="bestsellers_slider slider">
+                            {% for product in new %}	
+
+                            <div class="bestsellers_item discount">
+                                <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
+                                    <div class="bestsellers_image"><img src="{{product.img}}" alt=""></div>
+                                    <div class="bestsellers_content">
+                                        <div class="bestsellers_category"><a href="#">{{product.category.sweetName}}</a></div>
+                                        <div class="bestsellers_name"><a href="/product/{{product.id}}">{{product.title}}</a></div>
+                                        <div class="container">
+                                            <div class="rating-wrap">
+                                                <div class="center">
+                                                    <span id='rating_Val'>{{product.rate|floatformat:1}}</span>
+                                                    <div  data-score="{{product.rate|floatformat:1}}" style="display: flex;justify-content: center;" class="lol"></div>
+
+                                                </div>
+                                                <h4 id="rating-value"></h4>
+                                            </div>
+                                        </div>
+                                        <div class="bestsellers_price discount">{{product.lastprice}}EGP</span></div>
+                                    </div>
+                                </div>
+                                <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
+                                <ul class="bestsellers_marks">
+                                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
+                                    <li class="bestsellers_mark bestsellers_new">new</li>
+                                </ul>
+
+                            </div>
+                            {% endfor %}	
+
+                            <!-- Best Sellers Item -->
+
+
+ 
+
+                        </div>
+                    </div>
+
+                    <div class="bestsellers_panel panel">
+
+                        <!-- Best Sellers Slider -->
+
+                        <div class="bestsellers_slider slider">
+
+                            <!-- Best Sellers Item -->
+
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Adverts -->
+
+
+<!-- Trends -->
+
+
+<!-- Reviews -->
+
+<!-- Recently Viewed -->
+
+<!-- Brands -->
+
+
+
+
+{% endblock body %}

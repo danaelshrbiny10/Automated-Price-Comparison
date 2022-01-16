@@ -1,7 +1,0 @@
-# from .tasks import jumiascraper
-
-
-
-
-
-

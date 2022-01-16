@@ -1,0 +1,205 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load bootstrap4 %}
+{% load mathfilters %}
+{% block body %}
+<div class="super_container">
+
+	<div class="single_product">
+		<div class="container">
+			<div class="row">
+				<!-- Images -->
+				<div class="col-lg-2 order-lg-1 order-2">
+					<ul class="image_list">
+						<li data-image="images/single_4.jpg"><img src="{{souq.img}}" alt=""></li>
+						<li data-image="images/single_2.jpg"><img src="{{souq.img}}" alt=""></li>
+						<li data-image="images/single_3.jpg"><img src="{{souq.img}}" alt=""></li>
+					</ul>
+				</div>
+				<!-- Selected Image -->
+				<div class="col-lg-5 order-lg-2 order-1">
+					<div class="image_selected"><img src="{{souq.img}}" alt=""></div>
+				</div>
+				<!-- Description -->
+				<div class="col-lg-5 order-3">
+					<div class="product_description">
+						<div class="product_category">{{souq.category.sweetName}}</div>
+						<div class="product_name">{{souq.title}}</div>
+						<div class="rating-wrap">
+							<div  data-score="{{souq.rate|floatformat:1}}" class="lol"></div>
+
+							<h4 id="rating-value"></h4>
+						</div>
+						<div class="product_text">
+							{{souq.description|safe}}
+						</div>
+						<div class="order_info d-flex flex-row">
+							<form method="POST" action="{% url 'product:interest' %}">
+								{% csrf_token %}
+								<div class="clearfix" style="z-index: 1000;">
+									<input type="hidden" value="{{souq.id}}" name="id">
+									<input type="hidden" value="{{souq.lastprice}}" name="lastprice">
+									<input type="hidden" value="{{souq.title}}" name="title">
+									<input placeholder="Expected Price" type="number" name="num" />
+									<input type="hidden" value="{{ user.username }}" name="username">
+									<div class="product_price" style="background-color: bisque; width: 80px;text-align: center; height: 15px; border: -3px; color: rgb(255, 0, 0);">{{souq.lastprice}}EGP</div>
+									<div class="button_container">
+										{% if user.is_authenticated %}
+										<a class="nav-brand" href="#"></a>
+										<button name="subscribe" type="submit" type="button" class="btn btn-success" style="border: blue; background-color: blue;">notify me</button>
+										{% else %}
+										<button disabled name="subscribe" type="submit" type="button" class="btn btn-success" style="border: blue; background-color: blue;">notify me</button>
+										{% endif %}
+									</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="col-lg-8 col-md-12 table-responsive">
+			<table class="table">
+				<tbody>
+					<tr>
+						{% for product in souqPlus %}	
+						<td class="item-img">
+								<img src={{product.img}}
+									height="70" class=" ls-is-cached lazyloaded">
+							</a>
+						</td>
+						<td class="item-name">
+							<h3>
+								{{product.title}}
+							</h3>
+						</td>
+						<td class="item-price">
+							<p> {{product.lastprice}} <span>EGP</span></p>
+
+							<ul class="list-inline change-percent green">
+
+								<li>
+									<span>-6%</span>
+								</li>
+								<li>
+									<i class="icon-arrow-down-en"></i>
+								</li>
+							</ul>
+						</td>
+						<td class="hidden-xs">
+							<h5 style="color: rgb(64, 64, 228); ">Souq</h5>
+						</td>
+						<td>
+							<a data-gtmid="product-buy|Souq|eg|en"
+								productpath="/eg/en/off-cliff-cotton-contrast-side-stripe-drawstringelastic-waist-slimfit-sweatpants-for-men-black-m-131547785"
+								target="_blank" rel="nofollow"
+								href="{{product.url}}"
+								class="btn btn-primary" >Buy Now</a>
+						</td>
+					</tr>
+					{% endfor %}	
+
+					{% for product in jumia %}	
+					<td class="item-img">
+							<img src={{product.img}}
+								height="70" class=" ls-is-cached lazyloaded">
+						</a>
+					</td>
+					<td class="item-name">
+						<h3>
+							{{product.title}}
+						</h3>
+					</td>
+					<td class="item-price">
+						<p> {{product.lastprice}} <span>EGP</span></p>
+
+						<ul class="list-inline change-percent green">
+
+							<li>
+								<span>-6%</span>
+							</li>
+							<li>
+								<i class="icon-arrow-down-en"></i>
+							</li>
+						</ul>
+					</td>
+					<td class="hidden-xs">
+						<h5 style="color: rgb(212, 88, 30);">Jumia</h5>
+					</td>
+					<td>
+						<a data-gtmid="product-buy|Souq|eg|en"
+							productpath="/eg/en/off-cliff-cotton-contrast-side-stripe-drawstringelastic-waist-slimfit-sweatpants-for-men-black-m-131547785"
+							target="_blank" rel="nofollow"
+							href="https://www.jumia.com.eg/{{product.url}}"
+							class="btn btn-primary">Buy Now</a>
+					</td>
+				</tr>
+				{% endfor %}	
+
+				{% for product in noon %}	
+					<td class="item-img">
+							<img src=https://z.nooncdn.com/products/tr:n-t_80/{{product.img}}.jpg
+								height="70" class=" ls-is-cached lazyloaded">
+						</a>
+					</td>
+					<td class="item-name">
+						<h3>
+							{{product.title}}
+						</h3>
+					</td>
+					<td class="item-price">
+						<p> {{product.lastprice}} <span>EGP</span></p>
+
+						<ul class="list-inline change-percent green">
+							<li>
+								<span>-6%</span>
+							</li>
+							<li>
+								<i class="icon-arrow-down-en"></i>
+							</li>
+						</ul>
+					</td>
+					<td class="hidden-xs">
+						<h5 style="color: rgb(226, 211, 76);">Noon</h5>
+					</td>
+					<td>
+						<a data-gtmid="product-buy|Souq|eg|en"
+							productpath="/eg/en/off-cliff-cotton-contrast-side-stripe-drawstringelastic-waist-slimfit-sweatpants-for-men-black-m-131547785"
+							target="_blank" rel="nofollow"
+							href="https://www.noon.com/egypt-en/{{product.url}}/{{product.sku}}/p?o={{product.offercode}}"
+							class="btn btn-primary">Buy Now</a>
+					</td>
+				</tr>
+				{% endfor %}	
+				</tbody>
+			</table>
+
+		</div>
+		<br>
+		<br>
+	</div>
+		
+		<!-- amCharts javascript sources -->
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/patterns.js"></script>
+		
+		<div class="container">
+			<canvas id="myChart" width="500" height="400"></canvas>
+		
+		</div>
+		
+				<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+				<script type="text/javascript" src="{% static 'js/Chart.min.js' %}"></script>
+				<script type="text/javascript">
+					$.get("{% url 'products:chaaar' souq.id %}", function(data) {
+						var ctx = $("#myChart").get(0).getContext("2d");
+						new Chart(ctx, {
+							type: 'line', data: data
+						});
+					});
+				</script>
+</div>
+
+{% endblock body %}
